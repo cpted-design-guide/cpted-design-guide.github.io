@@ -1,0 +1,50 @@
+{
+  "id": "A-5",
+  "slug": "a-5-culs-de-sac",
+  "title": "クルドサック・袋小路",
+  "english": "Culs-de-Sac/Dead-end Streets",
+  "category": "A 土地利用・交通計画",
+  "principle": "領域の階層化",
+  "body": "クルドサック・袋小路は、私的な領域であることを感じさせるため、部外者が心理的に進入しにくい。クルドサック・袋小路で車の通り抜けをなくしつつも、その端部にフットパスをつなげ、歩行者の通り抜けの良さ（パーミアビリティ）を確保する。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-3 道路の段階構成",
+      "href": "/a-3-hierarchy-of-roads.html"
+    },
+    {
+      "text": "A-4 パーミアビリティ",
+      "href": "/a-4-permeability.html"
+    },
+    {
+      "text": "D-3 顔見知りの関係づくり"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/images/a-5-culs-de-sac.png",
+      "kind": "illustration",
+      "caption": "歩行者が通り抜けできるクルドサック",
+      "alt": "住宅8棟・車5台と袋小路、端部で歩行者が通り抜けできるフットパス。原図の配置と引出線・文字を保持。",
+      "width": 1800,
+      "height": 2177
+    },
+    {
+      "src": "/images/a-5-photo.jpg",
+      "kind": "photograph",
+      "caption": "住宅に囲まれた袋小路状の空間をのぞむ\n（照葉のまち／福岡市東区）",
+      "alt": "住宅に囲まれた袋小路状の空間をのぞむ（照葉のまち／福岡市東区）",
+      "width": 1400,
+      "height": 1050
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 26,
+    "pdf_page": 12,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=12"
+  },
+  "secondary_layout": "single"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "A-3",
+  "slug": "a-3-hierarchy-of-roads",
+  "title": "道路の段階構成",
+  "english": "Hierarchy of Roads",
+  "category": "A 土地利用・交通計画",
+  "principle": "領域の階層化",
+  "body": "道路の段階構成によって、匿名性の高い公的空間から住宅などの私的空間に向かうにつれて、部外者が進入しにくいようにする。道路の段階構成を明確にすることにより、通過交通の排除などのアクセスコントロールと、街区単位での領域性の確保を行う。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-5 クルドサック・袋小路",
+      "href": "/a-5-culs-de-sac.html"
+    },
+    {
+      "text": "B-6 領域境界の演出"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-3-road-hierarchy.png",
+      "alt": "外周幹線道路から細街路へ至る道路構成と、公から私へ・匿名性の高から低へ至る階層図。",
+      "caption": "図 道路序列（ヒエラルキー）の概念図",
+      "width": 1133,
+      "height": 1388
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 24,
+    "pdf_page": 10,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=10"
+  }
+}

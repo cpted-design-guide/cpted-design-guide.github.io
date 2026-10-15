@@ -1,6 +1,6 @@
 # キーワードページのプレビュー運用
 
-新しいページと修正案は、まず `preview/<既存のページ名>.html` に公開して確認する。承認を得るまでは、正式ページの上書き、トップからのリンク追加、正式ページへの反映を行わない。
+初期5ページはプレビュー確認後に正式反映した。現在は利用者の指示により、残り33キーワードを約5ページ単位で照合・制作し、判断に迷う点がなければ承認待ちやプレビュー公開を挟まず正式ページへ直接反映する。不明点や原著との相違は個別に報告する。
 
 A-4の確認用URL：
 
@@ -29,7 +29,7 @@ python3 scripts/build_keyword.py content/keywords/a-1.json
 python3 scripts/build_keyword.py content/keywords/c-1.json
 ```
 
-既定の出力先は `preview/`。本文・掲載順・キャプションは原本と照合した `content/keywords/` のデータを利用し、`templates/keyword.html` と `assets/css/keyword.css` で表示する。
+既定の出力先は正式ページ（リポジトリ直下）。プレビューが必要な場合は `--output preview/<ページ名>.html` を明示する。本文・掲載順・キャプションは原本と照合した `content/keywords/` のデータを利用し、`templates/keyword.html` と `assets/css/keyword.css` で表示する。
 
 プレビューページには識別表示と `noindex, nofollow` を付ける。ただし、GitHub Pagesとこのリポジトリの内容は公開情報であり、アクセス制限ではない。
 
@@ -37,8 +37,8 @@ python3 scripts/build_keyword.py content/keywords/c-1.json
 
 1. 原著PDF・編集データで本文、図版、写真、キャプション、掲載順、コラムの有無を照合する。
 2. 図は原図と清書・彩色版を比較し、住宅・道路・人物・視線・動線・矢印・文字を確認する。
-3. 公開したプレビューで、画像、PC・スマートフォン表示、リンクを確認する。
-4. 利用者の承認後にだけ正式ページを生成・反映し、トップや関連キーワードのリンクを更新する。
+3. 画像、PC・スマートフォン表示、リンクを検証し、内容に不明点がないページを正式反映する。
+4. トップと完成済みページの関連キーワードのリンクを更新し、GitHub Pagesのデプロイと公開後の動作を確認する。約5ページごとにURL・照合結果・未解決事項を報告する。
 
 画像のHTML寸法はファイルの実寸と一致させる。画像内キャプションをHTMLへ移す場合は、図の領域を保ったWeb用画像を作り、CSSによる隠れた切り抜きに依存しない。原本は公開リポジトリ外に保全し、原文・写真・図版の掲載要素を省略しない。
 
@@ -48,7 +48,7 @@ python3 scripts/build_keyword.py content/keywords/c-1.json
 python3 scripts/build_keyword.py content/keywords/a-4.json --output a-4-permeability.html
 ```
 
-`--output` は出力先を明示するためのオプション。正式ページへの出力は別途承認が必要。
+`--output` は出力先を明示するためのオプション。残り33キーワードの正式公開は利用者の継続承認を受けている。
 
 公開リポジトリにはWeb表示用に変換した画像だけを追加する。AI、InDesign、TIFF、編集用PDFなどの原著編集データや認証情報は追加しない。
 
