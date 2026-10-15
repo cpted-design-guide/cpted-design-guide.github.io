@@ -1,0 +1,287 @@
+{
+  "id": "story-4",
+  "number": 4,
+  "marker": "④",
+  "slug": "story-4-diversity",
+  "title": "多様性のあるまち",
+  "english": "Community with Diversity",
+  "paragraphs": [
+    "住民の属性や土地利用が単純なまちでは、活動が行われる時間や空間に偏りがあり、犯罪などが起こりやすい。商業と住宅など建物用途の複合化、住商併用建物、事務所兼住宅の導入を通じて、昼間でも人の活動を確保する。",
+    "第三の居場所（サードプレイス）として活用されうる歴史・文化資源やオープンカフェも配置する。"
+  ],
+  "body_links": [
+    {
+      "text": "建物用途の複合化",
+      "href": "/a-2-mixed-land-use.html"
+    },
+    {
+      "text": "サードプレイス",
+      "href": "/b-3-the-third-place.html"
+    },
+    {
+      "text": "オープンカフェ",
+      "href": "/c-6-outdoor-cafes-kiosks.html"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "A-2",
+      "text": "土地・建物用途の複合化",
+      "color": "orange",
+      "href": "/a-2-mixed-land-use.html"
+    },
+    {
+      "id": "A-11",
+      "text": "住宅の多様化",
+      "color": "orange",
+      "href": "/a-11-diversity-of-dwelling-types.html"
+    },
+    {
+      "id": "A-12",
+      "text": "接地階の利用",
+      "color": "orange",
+      "href": "/a-12-use-of-ground-floor.html"
+    },
+    {
+      "id": "A-14",
+      "text": "歴史や文化への配慮",
+      "color": "blue",
+      "href": "/a-14-appreciation-of-heritage-and-culture.html"
+    },
+    {
+      "id": "B-3",
+      "text": "サードプレイス",
+      "color": "orange",
+      "href": "/b-3-the-third-place.html"
+    },
+    {
+      "id": "B-4",
+      "text": "まちの縁側",
+      "color": "blue",
+      "href": "/b-4-public-private-linkages.html"
+    },
+    {
+      "id": "C-5",
+      "text": "透過性の高い店舗",
+      "color": "red",
+      "href": "/c-5-transparency-of-stores.html"
+    },
+    {
+      "id": "C-6",
+      "text": "オープンカフェ／キオスク",
+      "color": "orange",
+      "href": "/c-6-outdoor-cafes-kiosks.html"
+    },
+    {
+      "id": "D-4",
+      "text": "表出・花",
+      "color": "orange",
+      "href": "/d-4-exhibition-flowers.html"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/images/story-4-community.webp",
+      "alt": "住宅と店舗・公共空間が複合する街並みの原図清書・彩色版",
+      "caption": "",
+      "notes": [
+        {
+          "id": "A-14",
+          "text": "歴史や文化への配慮",
+          "href": "/a-14-appreciation-of-heritage-and-culture.html",
+          "color": "blue",
+          "paragraphs": [
+            "・樹木の保存",
+            "・オープンスペースに取り込んだ緑"
+          ]
+        },
+        {
+          "id": "B-3",
+          "text": "サードプレイス",
+          "href": "/b-3-the-third-place.html",
+          "color": "orange",
+          "paragraphs": []
+        },
+        {
+          "id": "C-6",
+          "text": "オープンカフェ／キオスク",
+          "href": "/c-6-outdoor-cafes-kiosks.html",
+          "color": "orange",
+          "paragraphs": []
+        },
+        {
+          "id": "A-2",
+          "text": "土地・建物用途の複合化",
+          "href": "/a-2-mixed-land-use.html",
+          "color": "orange",
+          "paragraphs": []
+        },
+        {
+          "id": "A-11",
+          "text": "住宅の多様化",
+          "href": "/a-11-diversity-of-dwelling-types.html",
+          "color": "orange",
+          "paragraphs": [
+            "・ 中高層住宅（ファミリー向け）",
+            "・ 単身アパート",
+            "・ 低層集合住宅（メゾネット）"
+          ]
+        },
+        {
+          "id": "D-4",
+          "text": "表出・花",
+          "href": "/d-4-exhibition-flowers.html",
+          "color": "orange",
+          "paragraphs": []
+        },
+        {
+          "id": "A-12",
+          "text": "接地階の利用",
+          "href": "/a-12-use-of-ground-floor.html",
+          "color": "orange",
+          "paragraphs": [
+            "・ 1F 店舗",
+            "・ 2～3F アパート"
+          ]
+        },
+        {
+          "id": "C-5",
+          "text": "透過性の高い店舗",
+          "href": "/c-5-transparency-of-stores.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "B-4",
+          "text": "まちの縁側",
+          "href": "/b-4-public-private-linkages.html",
+          "color": "blue",
+          "paragraphs": []
+        }
+      ],
+      "labels": [],
+      "width": 3001,
+      "height": 1356,
+      "keyword_regions": [
+        {
+          "id": "A-14",
+          "text": "◆A-14 歴史や文化への配慮",
+          "href": "/a-14-appreciation-of-heritage-and-culture.html",
+          "rect": [
+            0.1425997,
+            0.0806407,
+            0.1722602,
+            0.0339487
+          ]
+        },
+        {
+          "id": "B-3",
+          "text": "◆B-3 サードプレイス",
+          "href": "/b-3-the-third-place.html",
+          "rect": [
+            0.2373162,
+            0.8174579,
+            0.1398142,
+            0.0339487
+          ]
+        },
+        {
+          "id": "C-6",
+          "text": "◆C-6 オープンカフェ",
+          "href": "/c-6-outdoor-cafes-kiosks.html",
+          "rect": [
+            0.0446905,
+            0.9139767,
+            0.1398142,
+            0.0339487
+          ]
+        },
+        {
+          "id": "C-6",
+          "text": "C-6 オープンカフェ／キオスク",
+          "href": "/c-6-outdoor-cafes-kiosks.html",
+          "rect": [
+            0.1107377,
+            0.9608284,
+            0.073741,
+            0.0339487
+          ]
+        },
+        {
+          "id": "A-2",
+          "text": "◆A-2 土地・建物用途の複合化",
+          "href": "/a-2-mixed-land-use.html",
+          "rect": [
+            0.7619818,
+            0.7478838,
+            0.1917278,
+            0.0339487
+          ]
+        },
+        {
+          "id": "A-11",
+          "text": "◆A-11 住宅の多様化",
+          "href": "/a-11-diversity-of-dwelling-types.html",
+          "rect": [
+            0.7621894,
+            0.8199569,
+            0.1333249,
+            0.0339487
+          ]
+        },
+        {
+          "id": "D-4",
+          "text": "◆D-4 表出・花",
+          "href": "/d-4-exhibition-flowers.html",
+          "rect": [
+            0.6379081,
+            0.6639182,
+            0.1008789,
+            0.0339487
+          ]
+        },
+        {
+          "id": "A-12",
+          "text": "◆A-12 接地階の利用",
+          "href": "/a-12-use-of-ground-floor.html",
+          "rect": [
+            0.4574561,
+            0.7564727,
+            0.1333249,
+            0.0339487
+          ]
+        },
+        {
+          "id": "C-5",
+          "text": "◆C-5 透過性の高い店舗",
+          "href": "/c-5-transparency-of-stores.html",
+          "rect": [
+            0.4569629,
+            0.9137754,
+            0.1527926,
+            0.0339487
+          ]
+        },
+        {
+          "id": "B-4",
+          "text": "◆B-4 まちの縁側",
+          "href": "/b-4-public-private-linkages.html",
+          "rect": [
+            0.2373171,
+            0.8810822,
+            0.1138573,
+            0.0339487
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 73,
+    "pdf_page": 59,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=59"
+  }
+}

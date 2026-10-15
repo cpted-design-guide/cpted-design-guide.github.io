@@ -1,0 +1,200 @@
+{
+  "id": "story-3",
+  "number": 3,
+  "marker": "③",
+  "slug": "story-3-parks-where-people-gather",
+  "title": "みんなが集まる公園のあるまち",
+  "english": "Community with Well Designed Parks where People Gather",
+  "paragraphs": [
+    "公園・緑地を「まちの顔」となる地区の中心に配置し、周囲にアクティブゾーンを設け、内外の見通しを確保することで、まち全体の自然監視性を高め、住民間の交流も育む。",
+    "新規の公園については、計画段階からの住民参加によって、愛着や所有意識を高める。維持管理や花壇の手入れなどに住民が参加し、まちの縁側としての公園づくりを目指す。"
+  ],
+  "body_links": [
+    {
+      "text": "まちの顔",
+      "href": "/a-7-landmark.html"
+    },
+    {
+      "text": "アクティブゾーン",
+      "href": "/a-9-active-zone.html"
+    },
+    {
+      "text": "計画段階からの住民参加",
+      "href": "/b-1-citizen-participation-in-planning-process.html"
+    },
+    {
+      "text": "まちの縁側",
+      "href": "/b-4-public-private-linkages.html"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "A-8",
+      "text": "まんなかの広場",
+      "color": "red",
+      "href": "/a-8-squares-in-the-heart-of-communities.html"
+    },
+    {
+      "id": "A-9",
+      "text": "アクティブゾーン",
+      "color": "orange",
+      "href": "/a-9-active-zone.html"
+    },
+    {
+      "id": "B-1",
+      "text": "計画段階の住民参加",
+      "color": "blue",
+      "href": "/b-1-citizen-participation-in-planning-process.html"
+    },
+    {
+      "id": "B-4",
+      "text": "まちの縁側",
+      "color": "blue",
+      "href": "/b-4-public-private-linkages.html"
+    },
+    {
+      "id": "B-7",
+      "text": "見通しの良い公園",
+      "color": "red",
+      "href": "/b-7-visibility-in-parks.html"
+    },
+    {
+      "id": "D-4",
+      "text": "表出・花",
+      "color": "orange",
+      "href": "/d-4-exhibition-flowers.html"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/images/story-3-community.webp",
+      "alt": "地区の中心の公園と周囲の街路・店舗・花壇・人々を示す原図清書・彩色版",
+      "caption": "",
+      "notes": [
+        {
+          "id": "B-4",
+          "text": "まちの縁側",
+          "href": "/b-4-public-private-linkages.html",
+          "color": "blue",
+          "paragraphs": []
+        },
+        {
+          "id": "B-1",
+          "text": "計画段階の住民参加",
+          "href": "/b-1-citizen-participation-in-planning-process.html",
+          "color": "blue",
+          "paragraphs": [
+            "住民参加で設置した花壇"
+          ]
+        },
+        {
+          "id": "B-7",
+          "text": "見通しの良い公園",
+          "href": "/b-7-visibility-in-parks.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "A-9",
+          "text": "アクティブゾーン",
+          "href": "/a-9-active-zone.html",
+          "color": "orange",
+          "paragraphs": []
+        },
+        {
+          "id": "D-4",
+          "text": "表出・花",
+          "href": "/d-4-exhibition-flowers.html",
+          "color": "orange",
+          "paragraphs": []
+        },
+        {
+          "id": "A-8",
+          "text": "まんなかの広場",
+          "href": "/a-8-squares-in-the-heart-of-communities.html",
+          "color": "red",
+          "paragraphs": []
+        }
+      ],
+      "labels": [],
+      "width": 3001,
+      "height": 1908,
+      "keyword_regions": [
+        {
+          "id": "B-4",
+          "text": "◆B-4 まちの縁側",
+          "href": "/b-4-public-private-linkages.html",
+          "rect": [
+            0.7338216,
+            0.7434648,
+            0.1303456,
+            0.0276036
+          ]
+        },
+        {
+          "id": "B-1",
+          "text": "◆B-1 計画段階の住民参加",
+          "href": "/b-1-citizen-participation-in-planning-process.html",
+          "rect": [
+            0.2248723,
+            0.9338523,
+            0.190505,
+            0.0276036
+          ]
+        },
+        {
+          "id": "B-7",
+          "text": "◆B-7 見通しの良い公園",
+          "href": "/b-7-visibility-in-parks.html",
+          "rect": [
+            0.2914989,
+            0.1762506,
+            0.1754652,
+            0.0276036
+          ]
+        },
+        {
+          "id": "A-9",
+          "text": "◆A-9 アクティブゾーン",
+          "href": "/a-9-active-zone.html",
+          "rect": [
+            0.6056308,
+            0.0489577,
+            0.1754652,
+            0.0276036
+          ]
+        },
+        {
+          "id": "D-4",
+          "text": "◆D-4 表出・花",
+          "href": "/d-4-exhibition-flowers.html",
+          "rect": [
+            0.5196479,
+            0.8909082,
+            0.1153057,
+            0.0276036
+          ]
+        },
+        {
+          "id": "A-8",
+          "text": "◆A-8 まんなかの広場",
+          "href": "/a-8-squares-in-the-heart-of-communities.html",
+          "rect": [
+            0.4498841,
+            0.1126034,
+            0.1604253,
+            0.0276036
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 72,
+    "pdf_page": 58,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=58"
+  }
+}

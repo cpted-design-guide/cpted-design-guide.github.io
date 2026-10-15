@@ -1,0 +1,168 @@
+{
+  "id": "story-2",
+  "number": 2,
+  "marker": "②",
+  "slug": "story-2-safe-night-walking",
+  "title": "夜も安心して歩けるまち",
+  "english": "Community which Offers Safe Night Walking",
+  "paragraphs": [
+    "犯罪や犯罪不安の起こりにくいまちづくりのために、夜間のまちの灯かりにむらのないことを目指す。",
+    "道路上に街路灯、防犯灯を適切に配置するとともに、住宅エリアでは各戸の門灯・玄関灯や家あかり、商業エリアでは、店舗内から外に漏れる灯かりも活用する。"
+  ],
+  "body_links": [
+    {
+      "text": "街路灯、防犯灯",
+      "href": "/b-8-street-light-and-security-lighting.html"
+    },
+    {
+      "text": "家あかり",
+      "href": "/c-2-light-of-houses.html"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "B-8",
+      "text": "街路灯・防犯灯",
+      "color": "red",
+      "href": "/b-8-street-light-and-security-lighting.html"
+    },
+    {
+      "id": "C-2",
+      "text": "家あかり",
+      "color": "red",
+      "href": "/c-2-light-of-houses.html"
+    },
+    {
+      "id": "C-5",
+      "text": "透過性の高い店舗",
+      "color": "red",
+      "href": "/c-5-transparency-of-stores.html"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/images/story-2-commercial-night.webp",
+      "alt": "街路灯や店舗の灯かりが連続する夜間の商業地の原図清書・彩色版",
+      "caption": "●街路灯や透過性の高い店舗の灯かりを連続させた“むらのない灯かり”",
+      "notes": [
+        {
+          "id": "B-8",
+          "text": "街路灯・防犯灯",
+          "href": "/b-8-street-light-and-security-lighting.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-5",
+          "text": "透過性の高い店舗",
+          "href": "/c-5-transparency-of-stores.html",
+          "color": "red",
+          "paragraphs": []
+        }
+      ],
+      "labels": [],
+      "width": 3001,
+      "height": 1197,
+      "keyword_regions": [
+        {
+          "id": "B-8",
+          "text": "◆B-8 街路灯・防犯灯",
+          "href": "/b-8-street-light-and-security-lighting.html",
+          "rect": [
+            0.1828981,
+            0.5992442,
+            0.2012579,
+            0.0552268
+          ]
+        },
+        {
+          "id": "C-5",
+          "text": "◆C-5 透過性の高い店舗",
+          "href": "/c-5-transparency-of-stores.html",
+          "rect": [
+            0.7801552,
+            0.9396774,
+            0.2183214,
+            0.0552267
+          ]
+        }
+      ]
+    },
+    {
+      "src": "/images/story-2-residential-night.webp",
+      "alt": "門灯や街路灯の照射範囲が連続する夜間の住宅地の原図清書・彩色版",
+      "caption": "●門灯や街路灯を連続させた“むらのない灯かり”",
+      "notes": [
+        {
+          "id": "B-8",
+          "text": "街路灯・防犯灯",
+          "href": "/b-8-street-light-and-security-lighting.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-2",
+          "text": "家あかり",
+          "href": "/c-2-light-of-houses.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-2",
+          "text": "家あかり",
+          "href": "/c-2-light-of-houses.html",
+          "color": "red",
+          "paragraphs": []
+        }
+      ],
+      "labels": [
+        "統一した門灯"
+      ],
+      "width": 3001,
+      "height": 1039,
+      "keyword_regions": [
+        {
+          "id": "B-8",
+          "text": "◆B-8 街路灯・防犯灯",
+          "href": "/b-8-street-light-and-security-lighting.html",
+          "rect": [
+            0.5490598,
+            0.0283919,
+            0.1545785,
+            0.0601715
+          ]
+        },
+        {
+          "id": "C-2",
+          "text": "◆C-2 家あかり",
+          "href": "/c-2-light-of-houses.html",
+          "rect": [
+            0.8002858,
+            0.0435037,
+            0.1174209,
+            0.0601715
+          ]
+        },
+        {
+          "id": "C-2",
+          "text": "◆C-2 家あかり",
+          "href": "/c-2-light-of-houses.html",
+          "rect": [
+            0.7270291,
+            0.9338119,
+            0.1174209,
+            0.0601715
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 71,
+    "pdf_page": 57,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=57"
+  }
+}

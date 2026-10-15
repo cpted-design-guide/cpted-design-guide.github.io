@@ -1,0 +1,184 @@
+{
+  "id": "story-1",
+  "number": 1,
+  "marker": "①",
+  "slug": "story-1-smooth-continuation-of-perspective",
+  "title": "緩やかに視線のつながるまち",
+  "english": "Community with Smooth Continuation of Perspective",
+  "paragraphs": [
+    "公園や道路などの公共空間に向けた建物の窓からの視線、建物敷地や公園・道路との間の見通しの確保、視線の届かない死角の解消などを通じて、プライバシーに配慮しつつも緩やかに視線がつながり、犯罪などの起こりにくい空間づくりを目指す。"
+  ],
+  "body_links": [
+    {
+      "text": "死角の解消",
+      "href": "/c-7-minimizing-dead-spaces.html"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "B-7",
+      "text": "見通しの良い公園",
+      "color": "red",
+      "href": "/b-7-visibility-in-parks.html"
+    },
+    {
+      "id": "C-1",
+      "text": "公共空間に向く窓",
+      "color": "red",
+      "href": "/c-1-windows-facing-public-spaces.html"
+    },
+    {
+      "id": "C-3",
+      "text": "見通しの良い住宅外構",
+      "color": "red",
+      "href": "/c-3-transparency-of-housing-exteriors.html"
+    },
+    {
+      "id": "C-5",
+      "text": "透過性の高い店舗",
+      "color": "red",
+      "href": "/c-5-transparency-of-stores.html"
+    },
+    {
+      "id": "C-7",
+      "text": "死角の解消",
+      "color": "red",
+      "href": "/c-7-minimizing-dead-spaces.html"
+    }
+  ],
+  "figures": [
+    {
+      "src": "/images/story-1-community.webp",
+      "alt": "公共空間と私有地の間の視線のつながりを示す断面の原図清書・彩色版",
+      "caption": "",
+      "notes": [
+        {
+          "id": "C-3",
+          "text": "見通しの良い住宅外構",
+          "href": "/c-3-transparency-of-housing-exteriors.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "B-7",
+          "text": "見通しの良い公園",
+          "href": "/b-7-visibility-in-parks.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-1",
+          "text": "公共空間に向く窓",
+          "href": "/c-1-windows-facing-public-spaces.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-5",
+          "text": "透過性の高い店舗",
+          "href": "/c-5-transparency-of-stores.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-1",
+          "text": "公共空間に向く窓",
+          "href": "/c-1-windows-facing-public-spaces.html",
+          "color": "red",
+          "paragraphs": []
+        },
+        {
+          "id": "C-7",
+          "text": "死角の解消",
+          "href": "/c-7-minimizing-dead-spaces.html",
+          "color": "red",
+          "paragraphs": []
+        }
+      ],
+      "labels": [
+        "道路",
+        "私有地",
+        "私有地",
+        "公園"
+      ],
+      "width": 3001,
+      "height": 1396,
+      "keyword_regions": [
+        {
+          "id": "C-3",
+          "text": "◆C-3 見通しの良い住宅外構",
+          "href": "/c-3-transparency-of-housing-exteriors.html",
+          "rect": [
+            0.7932005,
+            0.6176916,
+            0.1665224,
+            0.0323298
+          ]
+        },
+        {
+          "id": "B-7",
+          "text": "◆B-7 見通しの良い公園",
+          "href": "/b-7-visibility-in-parks.html",
+          "rect": [
+            0.4105714,
+            0.6063636,
+            0.1476491,
+            0.0323298
+          ]
+        },
+        {
+          "id": "C-1",
+          "text": "◆C-1 公共空間に向く窓",
+          "href": "/c-1-windows-facing-public-spaces.html",
+          "rect": [
+            0.1602448,
+            0.1726294,
+            0.1476485,
+            0.0323298
+          ]
+        },
+        {
+          "id": "C-5",
+          "text": "◆C-5 透過性の高い店舗",
+          "href": "/c-5-transparency-of-stores.html",
+          "rect": [
+            0.1555571,
+            0.4586291,
+            0.1476491,
+            0.0323298
+          ]
+        },
+        {
+          "id": "C-1",
+          "text": "◆C-1 公共空間に向く窓",
+          "href": "/c-1-windows-facing-public-spaces.html",
+          "rect": [
+            0.6856392,
+            0.3441047,
+            0.1476491,
+            0.0323298
+          ]
+        },
+        {
+          "id": "C-7",
+          "text": "◆C-7 死角の解消",
+          "href": "/c-7-minimizing-dead-spaces.html",
+          "rect": [
+            0.4888425,
+            0.6522971,
+            0.1097758,
+            0.0323298
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 70,
+    "pdf_page": 56,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=56"
+  }
+}
