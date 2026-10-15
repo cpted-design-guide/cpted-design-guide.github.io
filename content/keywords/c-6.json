@@ -1,0 +1,84 @@
+{
+  "id": "C-6",
+  "slug": "c-6-outdoor-cafes-kiosks",
+  "title": "オープンカフェ／キオスク",
+  "english": "Outdoor Cafés / Kiosks",
+  "category": "C 個々の敷地",
+  "principle": "活動の促進",
+  "body": "オープンカフェやキオスクからは、利用者や従業員の視線が店外にも注がれる。特に、人目の少なくなりがちな場所や、公園のまわりなど人目を配りたい場所の安心感を高めることができる。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-9 アクティブゾーン",
+      "href": "/a-9-active-zone.html"
+    },
+    {
+      "text": "A-10 角地の利用",
+      "href": "/a-10-use-of-corner-lots.html"
+    },
+    {
+      "text": "B-3 サードプレイス",
+      "href": "/b-3-the-third-place.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/c-6-outdoor-cafe.png",
+      "width": 1358,
+      "height": 1159,
+      "alt": "原図のオープンカフェ。歩行者・店員・店内外の利用者計17人、日除け・看板・窓・椅子・テーブル・植栽と人物の位置を保持。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-6-photo1.jpg",
+      "width": 763,
+      "height": 504,
+      "alt": "路上のオープンカフェとキオスク（新宿モア４番街／東京都新宿区）",
+      "caption": "路上のオープンカフェとキオスク\n（新宿モア４番街／東京都新宿区）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-6-photo2.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "公園内のオープンカフェ（富岩運河環水公園／富山県富山市）",
+      "caption": "公園内のオープンカフェ\n（富岩運河環水公園／富山県富山市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-6-photo3.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "街角のオープンカフェ。防犯性と生活の質の両立を可能にする居場所づくりとデザインの例（日本大通り／横浜市中区）",
+      "caption": "街角のオープンカフェ。防犯性と生活の質の両立を可能にする居場所づくりとデザインの例\n（日本大通り／横浜市中区）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 55,
+    "pdf_page": 41,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=41"
+  },
+  "figure_rows": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "columns": [
+    {
+      "title": "路上イベントなどの道路空間の活用",
+      "paragraphs": [
+        "路上イベントとして道路空間においてオープンカフェなどが期間限定で実施されるなど、道路空間の多様な活用に関する要望を背景として、「総合規制改革会議」の答申（2003 年12 月）において、道路等の公共空間を地域のニーズや実情に応じて柔軟に活用することが示され「道を活用した地域活動の円滑化のためのガイドライン（2005 年3 月）」が策定されており、道路空間の活用が柔軟化してきている。"
+      ]
+    }
+  ]
+}

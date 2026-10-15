@@ -1,0 +1,43 @@
+{
+  "id": "C-4",
+  "slug": "c-4-connectivity-of-footpaths",
+  "title": "フットパスとのつながり",
+  "english": "Connectivity of Footpaths",
+  "category": "C 個々の敷地",
+  "principle": "活動の促進",
+  "body": "フットパスと住宅、さらにフットパスどうしをつなげることで、利用が少なくなりがちなフットパスの利用機会を増やし、人目を確保する。フットパスに面する住宅の場合、その側に通用口を設けて、フットパスの利用機会を増やすことが望ましい。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-4 パーミアビリティ",
+      "href": "/a-4-permeability.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/c-4-footpath-connections.png",
+      "width": 1801,
+      "height": 1442,
+      "alt": "住宅1棟の通用口が左のフットパス、正面玄関が右の道路につながる図。人物3人、樹木3本と一部が隠れた車1台、塀・生垣・窓・敷地形状を保持。図中文字「通用口」「正面玄関」「道路」「フットパス」と引出線を保持。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-4-photo.jpg",
+      "width": 1051,
+      "height": 1400,
+      "alt": "フットパスに面した通用口（八王子みなみ野シティ／東京都八王子市）",
+      "caption": "フットパスに面した通用口\n（八王子みなみ野シティ／東京都八王子市）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 53,
+    "pdf_page": 39,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=39"
+  },
+  "secondary_layout": "single"
+}

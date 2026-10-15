@@ -1,0 +1,68 @@
+{
+  "id": "C-5",
+  "slug": "c-5-transparency-of-stores",
+  "title": "透過性の高い店舗",
+  "english": "Transparency of Stores",
+  "category": "C 個々の敷地",
+  "principle": "視認性の確保",
+  "body": "店舗内外の透過性を高め、店舗から公共空間に向かう人目を確保する。ファサードにガラスを多用するとともに、店舗内のレイアウトも、内外の視線が通るよう配慮する。夜間ライトアップするショーウィンドウは、通行者に安心感を与える。ただし、見通しを妨げるポスター等の貼付や、ガラスの汚れには留意する必要がある。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-9 アクティブゾーン",
+      "href": "/a-9-active-zone.html"
+    },
+    {
+      "text": "A-12 接地階の利用",
+      "href": "/a-12-use-of-ground-floor.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/c-5-bakery.png",
+      "width": 978,
+      "height": 1608,
+      "alt": "ベーカリーの透明な窓と棚、店内の人物1人と店外の親子2人。原図の看板・日除け・植栽・商品の配置を保持。",
+      "caption": "店内から通りが見通せるベーカリー"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/c-5-cafe.png",
+      "width": 1241,
+      "height": 1267,
+      "alt": "カフェの店内4人と通行人1人、外向きのカウンター、大きな窓、ペンダントライト2灯。原図の看板「COFFEE AND COFFEE」と店舗・人物の配置を保持。",
+      "caption": "外向きにテーブルを設けたカフェ"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-5-photo.jpg",
+      "width": 1280,
+      "height": 726,
+      "alt": "夜間も明るさが確保された商業空間（デイビスコモンズ／カリフォルニア州デイビス市）",
+      "caption": "夜間も明るさが確保された商業空間\n（デイビスコモンズ／カリフォルニア州デイビス市）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 54,
+    "pdf_page": 40,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=40"
+  },
+  "body_paragraphs": [
+    "店舗内外の透過性を高め、店舗から公共空間に向かう人目を確保する。ファサードにガラスを多用するとともに、店舗内のレイアウトも、内外の視線が通るよう配慮する。夜間ライトアップするショーウィンドウは、通行者に安心感を与える。",
+    "ただし、見通しを妨げるポスター等の貼付や、ガラスの汚れには留意する必要がある。"
+  ],
+  "figure_rows": [
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ]
+  ],
+  "first_row_align": "end"
+}
