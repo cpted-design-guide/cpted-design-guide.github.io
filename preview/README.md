@@ -11,6 +11,12 @@ B-7・D-2の確認用URL：
 - https://cpted-design-guide.github.io/preview/b-7-visibility-in-parks.html
 - https://cpted-design-guide.github.io/preview/d-2-maintenance-participation.html
 
+A-1・C-1の改修案（正式反映前）：
+
+- https://cpted-design-guide.github.io/preview/a-1-walkability.html
+- https://cpted-design-guide.github.io/preview/c-1-windows-facing-public-spaces.html
+- https://cpted-design-guide.github.io/preview/a-1-c-1-source-review.html （原図との比較・照合記録）
+
 ## 再生成
 
 リポジトリ直下で実行する。Python標準ライブラリだけで動作する。
@@ -19,6 +25,8 @@ B-7・D-2の確認用URL：
 python3 scripts/build_keyword.py content/keywords/a-4.json
 python3 scripts/build_keyword.py content/keywords/b-7.json
 python3 scripts/build_keyword.py content/keywords/d-2.json
+python3 scripts/build_keyword.py content/keywords/a-1.json
+python3 scripts/build_keyword.py content/keywords/c-1.json
 ```
 
 既定の出力先は `preview/`。本文・掲載順・キャプションは原本と照合した `content/keywords/` のデータを利用し、`templates/keyword.html` と `assets/css/keyword.css` で表示する。
@@ -61,4 +69,26 @@ B-7の図は人物5人、自転車1台、高木1本、低木、車1台、左向�
 
 InDesign「二版」は読み出せた本文・キャプションの文字列も参照した。ただしネイティブ文書の最終レイアウト全体は解析していないため、掲載内容と順序の基準は公開PDFとした。原本と個別の照合記録は公開リポジトリ外に保管している。
 
-今回の公開先はプレビューだけで、既存の正式ページとトップページは変更していない。
+B-7・D-2は承認を受け、正式ページへ反映済み。正式ページは、プレビュー表示と検索除外指定を除いて承認済みプレビューと同じ内容で生成した。トップページの既存リンクはそのまま正式URLに向いている。
+
+```sh
+python3 scripts/build_keyword.py content/keywords/b-7.json --output b-7-visibility-in-parks.html
+python3 scripts/build_keyword.py content/keywords/d-2.json --output d-2-maintenance-participation.html
+```
+
+## A-1・C-1の原著照合記録
+
+| 項目 | A-1 ウォーカビリティ | C-1 公共空間に向く窓 |
+|---|---|---|
+| 掲載箇所 | p.22（PDF内8ページ目） | p.50（同36ページ目） |
+| 本文 | 初期Web版の「ウォーカビリティの高い」を原文の「ウォーカビリティのある」に戻した | 原著の全文と一致 |
+| 図版 | `p22-zu.tif` を基に再清書・彩色。旧Web版の鉄道端の矢印・独自の建物描写を除いた | `p50-zu.ai` と既存 `c-1-gemini.jpg` を比較して継続使用 |
+| 写真 | 原著に掲載なし | `p50-photo1.tif`・`p50-photo2.tif` をsRGBのJPEGへ変換。元写真の内容・順序をPDFと照合 |
+| コラム | 「ＴＯＤ：公共交通指向型開発」の全文・出典・元の電球マークを掲載 | 独立したコラムなし |
+| キャプション | 原著の図にキャプションなし | 原著の写真キャプション2件を全文掲載。図内の文字2件も保持 |
+
+図の要素の照合は公開した比較ページにも記載した。A-1は徒歩圏3つ・駅3点・道路矢印18本、C-1は人物6人・高木2本・上下階の窓・左向き視線矢印2本と文字を確認した。線、色、人物の服装などの描写は清書版の表現で、原図との画素・座標の完全一致を保証するものではない。
+
+A-1・C-1の本文はInDesign「二版」から読み出せた文字列とも一致した。原著PDFの全掲載要素を基準とし、二版のネイティブ最終レイアウト全体の一致までは未確認。写真・図版はファイル名だけで対応を決めず、元画像とPDFの内容を比較した。
+
+A-1・C-1の正式HTMLと既存の画像は変更していない。改修用の新規画像には別名を使い、承認まではプレビューだけで使用する。原図の比較用画像もWeb用PNGで、編集元ファイルは公開リポジトリに登録しない。

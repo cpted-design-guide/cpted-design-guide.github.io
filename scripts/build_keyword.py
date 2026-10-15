@@ -32,9 +32,20 @@ def figure(item, main=False):
         image = '<div class="paired-images">' + "".join(picture(image) for image in item["images"]) + "</div>"
     else:
         image = picture(item, main)
+    caption_html = f'  <figcaption>{caption}</figcaption>\n' if caption else ""
     return (f'<figure class="{" ".join(classes)}">\n'
-            f'  {image}\n'
-            f'  <figcaption>{caption}</figcaption>\n</figure>')
+            f'  {image}\n' + caption_html + '</figure>')
+
+
+def column(item, index):
+    heading_id = f'column-{index}'
+    icon = item.get("icon")
+    icon_html = (f'<img class="column-icon" src="{escape(icon["src"])}" alt="" '
+                 f'width="{int(icon["width"])}" height="{int(icon["height"])}" loading="lazy">') if icon else ""
+    paragraphs = "".join(f'\n  <p>{escape(text)}</p>' for text in item["paragraphs"])
+    return (f'\n<section class="column" aria-labelledby="{heading_id}">\n'
+            f'  <h2 id="{heading_id}">{icon_html}<span class="column-label">コラム</span>{escape(item["title"])}</h2>'
+            + paragraphs + f'\n  <p class="column-source">{escape(item["source"])}</p>\n</section>')
 
 
 def build(path, output=None):
@@ -59,10 +70,14 @@ def build(path, output=None):
     values = {key: escape(data[key]) for key in ("id", "title", "english", "category", "principle", "body", "note")}
     values["page_title"] = escape(data["id"] + " " + data["title"])
     values.update({"source_" + key: escape(value) for key, value in data["source"].items()})
-    values.update(related="、".join(related), figures=rendered)
+    values.update(related="、".join(related), figures=rendered,
+                  columns="".join(column(item, index) for index, item in enumerate(data.get("columns", []), start=1)))
     values["definition"] = '    <p class="definition">' + escape(data["note"]) + "</p>" if data["note"] else ""
     values["robots_meta"] = '<meta name="robots" content="noindex, nofollow">' if is_preview else ""
     values["preview_notice"] = '<p class="preview-notice">制作確認用プレビュー</p>' if is_preview else ""
+    if is_preview and data.get("review_url"):
+        values["preview_notice"] = ('<p class="preview-notice">制作確認用プレビュー · '
+                                    f'<a href="{escape(data["review_url"])}">原図との比較・照合記録</a></p>')
     page = Template((ROOT / "templates/keyword.html").read_text(encoding="utf-8")).substitute(values)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(page, encoding="utf-8")

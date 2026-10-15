@@ -33,6 +33,12 @@ figcaption{margin-top:14px;font-size:13px;line-height:1.8;color:#435e54;text-ali
 .figure-pair .photograph{margin-top:18px}
 .figure-pair--one-two .photograph{margin-top:0}
 .evaluation-symbol{font-family:"DejaVu Sans",sans-serif;font-size:21px;margin-right:5px;vertical-align:-1px;color:#435e54}
+.column{margin-top:38px;padding:25px 28px;background:var(--paper);border:1px dashed #9cb7a8;border-radius:10px}
+.column h2{margin:0 0 18px;font-size:20px;line-height:1.7;display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.column-icon{width:38px;height:auto;flex:none}
+.column-label{font-size:11px;letter-spacing:.08em;color:var(--accent)}
+.column p{margin:12px 0;font-size:15px;line-height:2}
+.column .column-source{font-size:12px;color:var(--muted);margin-bottom:0}
 .source{margin-top:45px;padding-top:23px;border-top:1px solid var(--line);font-size:12px;line-height:1.9;color:var(--muted)}
 .source p{margin:0 0 7px}
 .edition-note{font-size:11px}
@@ -43,4 +49,5 @@ figcaption{margin-top:14px;font-size:13px;line-height:1.8;color:#435e54;text-ali
 @media(max-width:640px){.header-inner{padding:17px 19px}.header-inner p{font-size:10px}.page{padding:22px 18px 52px}.breadcrumb{font-size:11px;margin-bottom:28px}.lead{font-size:16px;line-height:2.05;padding-left:15px;margin-top:26px}.definition{padding-left:18px;font-size:12px}.main-figure{padding:10px;border-radius:8px}.figure-pair{grid-template-columns:1fr;gap:24px;margin-top:26px}.figure-pair figure{padding:12px}.figure-pair .photograph{margin-top:0}figcaption{font-size:12px}.source{margin-top:32px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media(max-width:640px){.paired-images{grid-template-columns:1fr;gap:14px}}
+@media(max-width:640px){.column{padding:18px;margin-top:26px}.column h2{font-size:18px}.column p{font-size:14px}}
 @media print{body{background:white}.skip-link,.back-link{display:none}.site-header{background:white;color:#173c37}.header-inner p{color:#435e54}.page{padding:20px}.breadcrumb{margin-bottom:20px}figure{break-inside:avoid}.main-figure,.figure-pair figure{border:0;padding:0}.source a{color:inherit}}

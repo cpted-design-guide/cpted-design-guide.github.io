@@ -1,0 +1,53 @@
+{
+  "id": "C-1",
+  "slug": "c-1-windows-facing-public-spaces",
+  "title": "公共空間に向く窓",
+  "english": "Windows Facing Public Spaces",
+  "category": "C 個々の敷地",
+  "principle": "視認性の確保",
+  "body": "公共空間に向く窓により、建物から公共空間に向かう人目を確保する。特に子どもが遊ぶ公園には、利用頻度の高い部屋の窓を向けることが望ましい。通常なら窓を設けない側面にも、「見せ窓」を設置することで、犯罪企図者に視線を感じさせ、牽制できる。",
+  "note": "",
+  "related": [
+    {
+      "text": "C-3 見通しの良い住宅外構"
+    },
+    {
+      "text": "C-7 死角の解消"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/c-1-gemini.jpg",
+      "alt": "公園の4人と2本の高木、住宅内の2人。上下階の窓から公園へ向かう左向きの視線矢印2本。「道路側に面した窓」「公園」の表記。",
+      "width": 2400,
+      "height": 1792,
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-1-photo1-reviewed.jpg",
+      "alt": "寝室の窓から見える公園（ウッドベリー／カリフォルニア州アーバイン市）",
+      "width": 1400,
+      "height": 1050,
+      "caption": "寝室の窓から見える公園\n（ウッドベリー／カリフォルニア州アーバイン市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-1-photo2-reviewed.jpg",
+      "alt": "歩行者専用道路に面して設置されたマンション集会室（大阪府豊中市）",
+      "width": 1329,
+      "height": 998,
+      "caption": "歩行者専用道路に面して設置されたマンション集会室\n（大阪府豊中市）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": "50",
+    "pdf_page": 36,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=36"
+  },
+  "review_url": "/preview/a-1-c-1-source-review.html#c-1"
+}
