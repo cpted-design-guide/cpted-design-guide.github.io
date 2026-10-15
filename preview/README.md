@@ -6,12 +6,19 @@ A-4の確認用URL：
 
 https://cpted-design-guide.github.io/preview/a-4-permeability.html
 
+B-7・D-2の確認用URL：
+
+- https://cpted-design-guide.github.io/preview/b-7-visibility-in-parks.html
+- https://cpted-design-guide.github.io/preview/d-2-maintenance-participation.html
+
 ## 再生成
 
 リポジトリ直下で実行する。Python標準ライブラリだけで動作する。
 
 ```sh
 python3 scripts/build_keyword.py content/keywords/a-4.json
+python3 scripts/build_keyword.py content/keywords/b-7.json
+python3 scripts/build_keyword.py content/keywords/d-2.json
 ```
 
 既定の出力先は `preview/`。本文・掲載順・キャプションは原本と照合した `content/keywords/` のデータを利用し、`templates/keyword.html` と `assets/css/keyword.css` で表示する。
@@ -36,3 +43,22 @@ python3 scripts/build_keyword.py content/keywords/a-4.json --output a-4-permeabi
 `--output` は出力先を明示するためのオプション。正式ページへの出力は別途承認が必要。
 
 公開リポジトリにはWeb表示用に変換した画像だけを追加する。AI、InDesign、TIFF、編集用PDFなどの原著編集データや認証情報は追加しない。
+
+## B-7・D-2の原著照合記録
+
+| 項目 | B-7 見通しの良い公園 | D-2 維持管理活動への参加 |
+|---|---|---|
+| 原著の掲載箇所 | p.44（キーワード編PDF内30ページ目） | p.61（同47ページ目） |
+| 本文・関連キーワード | 公開PDFと照合し全文掲載 | 公開PDFと照合し全文掲載。「B-1 コラム参照」も保持 |
+| 図版 | 1点。`p44-zu.ai` の図と誌面を照合して清書・彩色 | 1点。`p61-zu.tif` の図と誌面を照合して清書・彩色 |
+| 写真 | 2点。`p44-photo1.ai` 内の元写真と `p44-photo2.tif` | 3点。`p61-photo1.tif`〜`p61-photo3.tif` |
+| キャプション | 図1件・写真2件を原著どおり掲載 | 図1件・写真2件を原著どおり掲載。清掃写真とサイン写真の2点には共通のキャプション |
+| 独立したコラム | なし | なし |
+
+ファイル名だけで対応を決めず、写真の被写体・誌面上の位置と、図の人物・行動・矢印・樹木・道具を比較した。D-2の写真は左から「道路沿いの花育て」「公園清掃」「アダプト・サイン」。スマートフォンでもこの順序を保つ。
+
+B-7の図は人物5人、自転車1台、高木1本、低木、車1台、左向きの視線矢印2本を照合。D-2は人物8人、2本の清掃道具、ベンチ、花壇、通路、樹木の位置関係を照合した。清書版は描画を改善したPNGであり、原図と画素・座標の完全一致を保証するものではない。
+
+InDesign「二版」は読み出せた本文・キャプションの文字列も参照した。ただしネイティブ文書の最終レイアウト全体は解析していないため、掲載内容と順序の基準は公開PDFとした。原本と個別の照合記録は公開リポジトリ外に保管している。
+
+今回の公開先はプレビューだけで、既存の正式ページとトップページは変更していない。

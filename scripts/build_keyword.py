@@ -13,18 +13,25 @@ def escape(value):
     return html.escape(str(value), quote=True)
 
 
+def picture(item, main=False):
+    dimensions = f' width="{int(item["width"])}" height="{int(item["height"])}"'
+    if item["width"] <= 0 or item["height"] <= 0:
+        raise ValueError("Reviewed image dimensions are required: " + item["src"])
+    loading = 'fetchpriority="high"' if main else 'loading="lazy"'
+    image = f'<img src="{escape(item["src"])}" alt="{escape(item["alt"])}"{dimensions} {loading} decoding="async">'
+    return f'<a class="zoom-image" href="{escape(item["src"])}" aria-label="画像を拡大：{escape(item["alt"])}">{image}</a>'
+
+
 def figure(item, main=False):
     classes = ["main-figure"] if main else []
     classes.append(item["kind"])
     caption = "<br>".join(escape(line) for line in item["caption"].splitlines())
     if item.get("evaluation_symbol"):
         caption = '<span class="evaluation-symbol" aria-hidden="true">' + escape(item["evaluation_symbol"]) + "</span>" + caption
-    dimensions = f' width="{int(item["width"])}" height="{int(item["height"])}"'
-    if item["width"] <= 0 or item["height"] <= 0:
-        raise ValueError("Reviewed image dimensions are required: " + item["src"])
-    loading = 'fetchpriority="high"' if main else 'loading="lazy"'
-    image = f'<img src="{escape(item["src"])}" alt="{escape(item["alt"])}"{dimensions} {loading} decoding="async">'
-    image = f'<a class="zoom-image" href="{escape(item["src"])}" aria-label="画像を拡大：{escape(item["alt"])}">{image}</a>'
+    if item["kind"] == "photograph-group":
+        image = '<div class="paired-images">' + "".join(picture(image) for image in item["images"]) + "</div>"
+    else:
+        image = picture(item, main)
     return (f'<figure class="{" ".join(classes)}">\n'
             f'  {image}\n'
             f'  <figcaption>{caption}</figcaption>\n</figure>')
@@ -44,11 +51,16 @@ def build(path, output=None):
     figures = data["figures"]
     rendered = figure(figures[0], main=True)
     if len(figures) > 1:
-        rendered += '\n<div class="figure-pair">\n' + "\n".join(figure(item) for item in figures[1:]) + "\n</div>"
+        layout = data.get("secondary_layout", "equal")
+        if layout not in ("equal", "one-two"):
+            raise ValueError("Unknown secondary figure layout: " + layout)
+        extra_class = " figure-pair--one-two" if layout == "one-two" else ""
+        rendered += f'\n<div class="figure-pair{extra_class}">\n' + "\n".join(figure(item) for item in figures[1:]) + "\n</div>"
     values = {key: escape(data[key]) for key in ("id", "title", "english", "category", "principle", "body", "note")}
     values["page_title"] = escape(data["id"] + " " + data["title"])
     values.update({"source_" + key: escape(value) for key, value in data["source"].items()})
     values.update(related="、".join(related), figures=rendered)
+    values["definition"] = '    <p class="definition">' + escape(data["note"]) + "</p>" if data["note"] else ""
     values["robots_meta"] = '<meta name="robots" content="noindex, nofollow">' if is_preview else ""
     values["preview_notice"] = '<p class="preview-notice">制作確認用プレビュー</p>' if is_preview else ""
     page = Template((ROOT / "templates/keyword.html").read_text(encoding="utf-8")).substitute(values)

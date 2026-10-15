@@ -1,0 +1,50 @@
+{
+  "id": "B-7",
+  "slug": "b-7-visibility-in-parks",
+  "title": "見通しの良い公園",
+  "english": "Visibility in Parks",
+  "category": "B 公共空間",
+  "principle": "視認性の確保",
+  "body": "公園の見通しを良くし、周囲からの人目を確保するとともに、犯罪企図者が隠れる死角をなくす。一定の緑量を確保しつつ見通しを良くするため、低木の高さを人の目線より下げ、高木の樹冠を人の目線より上げる。ただし、継続的に見通しが保たれるよう、剪定など計画的な管理が必要である。",
+  "note": "",
+  "related": [
+    {
+      "text": "C-7 死角の解消",
+      "href": null
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/b-7-visibility.png",
+      "alt": "高木の樹冠と低い植栽の間に、右側の親子から公園内へ向かう青い破線の視線2本を示した断面図。左に自転車の人、身をかがめた人、座った人がいて、右端に車がある。",
+      "caption": "低木の高さを人の目線より下げ、高木の樹冠を人の目線より上げて見通しを確保する。",
+      "width": 1729,
+      "height": 910
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-7-photo1.jpg",
+      "alt": "住宅に囲まれた芝生の公園と、見通しを保つ植栽やベンチ。パレットコート七光台。",
+      "caption": "パレットコート七光台（千葉県野田市）",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-7-photo2.jpg",
+      "alt": "高木の樹冠の下と低木の上から、公園内のブランコなどを見通せる植栽。",
+      "caption": "緑量と見通しの確保を両立する公園\n（東京都板橋区）",
+      "width": 1400,
+      "height": 1050
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 44,
+    "pdf_page": 30,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=30"
+  }
+}
