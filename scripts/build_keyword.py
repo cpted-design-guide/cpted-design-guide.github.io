@@ -49,9 +49,15 @@ def column(item, index):
                  f'width="{int(icon["width"])}" height="{int(icon["height"])}" loading="lazy">') if icon else ""
     paragraphs = "".join(f'\n  <p>{escape(text)}</p>' for text in item["paragraphs"])
     figures = "".join("\n" + figure(item) for item in item.get("figures", []))
-    source = f'\n  <p class="column-source">{escape(item["source"])}</p>' if item.get("source") else ""
-    return (f'\n<section class="column" aria-labelledby="{heading_id}">\n'
-            f'  <h2 id="{heading_id}">{icon_html}{escape(item["title"])}</h2>'
+    source = ('\n  <p class="column-source">' + "<br>".join(escape(line) for line in item["source"].splitlines()) + "</p>") if item.get("source") else ""
+    if item["title"]:
+        label = f'aria-labelledby="{heading_id}"'
+        heading = f'<h2 id="{heading_id}">{icon_html}{escape(item["title"])}</h2>'
+    else:
+        label = 'aria-label="原著のコラム"'
+        heading = f'<div class="column-heading">{icon_html}</div>'
+    return (f'\n<section class="column" {label}>\n'
+            f'  {heading}'
             + paragraphs + figures + source + '\n</section>')
 
 
@@ -70,6 +76,23 @@ def case_study(item):
 
 def render_figures(data):
     figures = data["figures"]
+    if "figure_sections" in data:
+        sections = data["figure_sections"]
+        if [index for section in sections for index in section["indices"]] != list(range(len(figures))):
+            raise ValueError("figure_sections must preserve the original figure order")
+        rendered = []
+        for index, section in enumerate(sections, start=1):
+            count = section.get("columns", 2)
+            if count not in (2, 3):
+                raise ValueError("Figure sections support two or three columns")
+            tone = " figure-section--blue" if section.get("tone") == "blue" else ""
+            title = section.get("title", "")
+            heading = f'<h2 id="figure-section-{index}">{escape(title)}</h2>' if title else ""
+            label = f' aria-labelledby="figure-section-{index}"' if title else ' aria-label="掲載図版"'
+            rendered.append(f'<section class="figure-section{tone}"{label}>' + heading
+                            + f'<div class="figure-gallery figure-gallery--{count}">'
+                            + ''.join(figure(figures[i]) for i in section["indices"]) + '</div></section>')
+        return ''.join(rendered)
     if "figure_rows" in data:
         rows = data["figure_rows"]
         if [index for row in rows for index in row] != list(range(len(figures))):

@@ -1,0 +1,85 @@
+{
+  "id": "B-3",
+  "slug": "b-3-the-third-place",
+  "title": "サードプレイス",
+  "english": "The Third Place",
+  "category": "B 公共空間",
+  "principle": "活動の促進",
+  "body": "サードプレイス（第３の居場所）の存在は、まちに活気を与え、人目を増やすことができる。また、住民が気軽に立ち寄り、想い想いに時間を過ごすことのできるサードプレイスは、利用者のコミュニティ意識も高める。サードプレイスになり得る場所として、例えば公園や集会場などの共用空間やカフェなどが考えられる。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-4 まちの縁側"
+    },
+    {
+      "text": "C-6 オープンカフェ／キオスク"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/b-3-home.png",
+      "width": 1371,
+      "height": 1147,
+      "alt": "ソファで過ごす大人と子供、トレーを持つ大人の3人。原図の配置と家具を保持。",
+      "caption": "ファーストプレイス（自宅）"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/b-3-office.png",
+      "width": 1383,
+      "height": 1137,
+      "alt": "職場の机、仕切り、椅子、パソコン・電話と原図の人物全員の配置を保持。",
+      "caption": "セカンドプレイス（職場・学校）"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/b-3-social-space.png",
+      "width": 1269,
+      "height": 1240,
+      "alt": "同じ丸テーブルとパラソルを囲む6人。原図の各人物の位置・行動、椅子、食器を保持。",
+      "caption": "サークルの仲間が集まることのできる空間"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/b-3-cafe.png",
+      "width": 1295,
+      "height": 1214,
+      "alt": "カップを口に運び本を読む女性1人。原図の丸テーブル2台、椅子5脚、窓と本・食器を保持。",
+      "caption": "自分の時間を与えてくれるカフェ"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 40,
+    "pdf_page": 26,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=26"
+  },
+  "figure_sections": [
+    {
+      "title": "",
+      "indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "サードプレイス",
+      "indices": [
+        2,
+        3
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "title": "",
+      "paragraphs": [
+        "サードプレイスとは、アメリカの社会学者レイ・オールデンバーグが1989 年に著書“The Great Good Place”で発表した新しい都市の居場所（プレイス）の概念。",
+        "都会で楽しく暮らすには3 つの居場所が必要であり、ファーストプレイスが自宅、セカンドプレイスが職場（学校）、この中間にあるのがサードプレイスと定義されている。"
+      ]
+    }
+  ]
+}

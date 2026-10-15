@@ -1,0 +1,125 @@
+{
+  "id": "B-2",
+  "slug": "b-2-identity",
+  "title": "アイデンティティ",
+  "english": "Identity",
+  "category": "B 公共空間",
+  "principle": "わがまち意識",
+  "body": "まちのアイデンティティ（独自性）となる要素（エレメント）は、住民のわがまち意識を高め、公共施設の維持管理活動等への参加を促進する。アイデンティティとなる要素として、共通の素材を用いたストリートファーニチャーや、共通のロゴ、住民が考えた愛称などが考えられる。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-7 まちの顔",
+      "href": "/a-7-landmark.html"
+    },
+    {
+      "text": "A-14 歴史や文化への配慮",
+      "href": "/a-14-appreciation-of-heritage-and-culture.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-1.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "ビレッジのシンボルである木製の橋",
+      "caption": "ビレッジのシンボルである木製の橋"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-2.jpg",
+      "width": 480,
+      "height": 360,
+      "alt": "丸石と木を使ったサイン",
+      "caption": "丸石と木を使ったサイン"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-3.jpg",
+      "width": 1227,
+      "height": 922,
+      "alt": "住宅地のロゴが入ったベンチ",
+      "caption": "住宅地のロゴが入ったベンチ"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-4.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "公園内に設置された大型テラコッタ",
+      "caption": "公園内に設置された大型テラコッタ"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-5.jpg",
+      "width": 800,
+      "height": 600,
+      "alt": "県道沿いで育てられているランの花",
+      "caption": "県道沿いで育てられているランの花"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-6.jpg",
+      "width": 1098,
+      "height": 1035,
+      "alt": "高須ボンエルフ　ロゴ（北九州市若松区）",
+      "caption": "高須ボンエルフ　ロゴ\n（北九州市若松区）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-7.jpg",
+      "width": 1400,
+      "height": 1400,
+      "alt": "エリアマネジメント北鴻巣ロゴ（埼玉県 北鴻巣土地区画整理事業）",
+      "caption": "エリアマネジメント北鴻巣ロゴ\n（埼玉県 北鴻巣土地区画整理事業）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-2-8.jpg",
+      "width": 500,
+      "height": 643,
+      "alt": "津田沼「奏の杜」ロゴ（千葉県 JR津田沼駅南口　特定土地区画整理事業）",
+      "caption": "津田沼「奏の杜」ロゴ\n（千葉県 JR津田沼駅南口\n　特定土地区画整理事業）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 39,
+    "pdf_page": 25,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=25"
+  },
+  "figure_sections": [
+    {
+      "title": "◆公共物に共通の素材である丸い川石と木材を用いるウッドブリッジ（カリフォルニア州アーバイン市）",
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "columns": 3,
+      "tone": "blue"
+    },
+    {
+      "title": "◆「花と緑に囲まれた芸術の里」を地域づくりの基本構想とする大城地区（沖縄県北中城村）",
+      "indices": [
+        3,
+        4
+      ],
+      "columns": 2,
+      "tone": "blue"
+    },
+    {
+      "title": "◆特徴のあるロゴデザインによるアイデンティティの創出",
+      "indices": [
+        5,
+        6,
+        7
+      ],
+      "columns": 3,
+      "tone": "blue"
+    }
+  ]
+}

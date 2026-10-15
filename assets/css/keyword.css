@@ -63,3 +63,11 @@ figcaption{margin-top:14px;font-size:13px;line-height:1.8;color:#435e54;text-ali
 @media(max-width:640px){.column{padding:18px;margin-top:26px}.column h2{font-size:18px}.column p{font-size:14px}}
 @media(max-width:640px){.figure-gallery,.case-study{grid-template-columns:1fr;gap:24px}.figure-gallery figure{padding:12px}.case-study{padding:16px;margin-top:26px}}
 @media print{body{background:white}.skip-link,.back-link{display:none}.site-header{background:white;color:#173c37}.header-inner p{color:#435e54}.page{padding:20px}.breadcrumb{margin-bottom:20px}figure{break-inside:avoid}.main-figure,.figure-pair figure{border:0;padding:0}.source a{color:inherit}}
+
+.figure-section{margin-top:28px}
+.figure-section--blue{padding:22px;background:#e8f5fc;border:1px solid #c5dfe9;border-radius:10px}
+.figure-section h2{font-size:16px;line-height:1.85;margin:0 0 18px}
+.figure-gallery--3{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+@media(max-width:640px){.figure-section--blue{padding:14px}.figure-section h2{font-size:14px}.figure-gallery--3{grid-template-columns:1fr;gap:24px}}
+
+.column-heading{margin-bottom:12px}

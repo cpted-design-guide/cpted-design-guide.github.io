@@ -1,0 +1,69 @@
+{
+  "id": "B-1",
+  "slug": "b-1-citizen-participation-in-planning-process",
+  "title": "施設計画への住民参加",
+  "english": "Citizen Participation in Planning Process",
+  "category": "B 公共空間",
+  "principle": "わがまち意識",
+  "body": "計画段階の住民参加は、公共空間に対する住民の所有意識を高め、供用後の維持管理への参加を促進する。公園やせせらぎづくりにおいて、完成後のアダプト制度の導入と、計画段階からの住民参加をセットで考えておくことが望ましい。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-13 街並みのルール",
+      "href": "/a-13-covenants-conditions-and-restrictions.html"
+    },
+    {
+      "text": "D-1 エリアマネジメント組織"
+    },
+    {
+      "text": "D-2 維持管理活動への参加",
+      "href": "/d-2-maintenance-participation.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/b-1-planning-workshop.png",
+      "width": 1477,
+      "height": 1065,
+      "alt": "楕円形のテーブルを囲んで話し合う11人。原図の椅子、資料、壁面の4枚の図面と人物の位置・行動を保持。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph-group",
+      "images": [
+        {
+          "src": "/images/b-1-photo1.jpg",
+          "width": 881,
+          "height": 661,
+          "alt": "くさっぱら公園の樹木と広場"
+        },
+        {
+          "src": "/images/b-1-photo2.jpg",
+          "width": 896,
+          "height": 661,
+          "alt": "くさっぱら公園の利用案内板"
+        }
+      ],
+      "caption": "利用者、行政、住民等がつくり続けるくさっぱら公園（東京都大田区）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 38,
+    "pdf_page": 24,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=24"
+  },
+  "secondary_layout": "single",
+  "columns": [
+    {
+      "title": "アダプト制度",
+      "paragraphs": [
+        "公行政が、特定の公共財（道路、公園、河川など）について、市民や民間業者と定期的に美化活動を行うよう契約する制度のこと。美化活動を行う主体は、地域住民などのボランティアが多く、行政はそれらの活動に対し一定の支援を行うという形式が多い。「Adopt」とは、英語で「養子縁組をする」という意味であり、公共財を地域で引き受けるといった意味合いの制度。"
+      ],
+      "source": "（出典：建築研究所（2009）「防犯まちづくりのための調査の手引き」）"
+    }
+  ]
+}

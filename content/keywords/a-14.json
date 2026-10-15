@@ -1,0 +1,66 @@
+{
+  "id": "A-14",
+  "slug": "a-14-appreciation-of-heritage-and-culture",
+  "title": "歴史や文化への配慮",
+  "english": "Appreciation of Heritage and Culture",
+  "category": "A 土地利用・交通計画",
+  "principle": "わがまち意識",
+  "body": "歴史や文化はまちのアイデンティティとなり、住民のわがまち意識を高める。地形、自然、地域の歴史・文化資産を活かした配置計画とし、地域に愛される寺社や蔵、樹木などを保全・維持・活用する。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-2 アイデンティティ",
+      "href": "/b-2-identity.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-14-greenway-section.png",
+      "width": 2170,
+      "height": 725,
+      "alt": "既存地形を活かした緑道断面。集合住宅2棟、小学校、保存緑地、せせらぎと人物2人。緑道景域100m以上、緑道10〜40mの寸法線と原図の出典表記を保持。",
+      "caption": "既存の地形を生かした緑道整備の例（港北ニュータウン／神奈川県横浜市）\nグリーンマトリックスシステムと呼ばれるオープンスペース計画により、公的な緑のみでなく、学校の校庭、公益的施設の庭、集合住宅の棟間などのオープンスペースや文化財など歴史的遺産をフットパスで結合しており、通勤通学や買い物時の安全性・快適性の確保、散歩やハイキングなどの余暇活動機能の確保などを図っている。\n（出典：住宅・都市地域整備公団　神奈川地域支社　港北開発事務所）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-14-photo1.jpg",
+      "width": 886,
+      "height": 591,
+      "alt": "地域の歴史的な建物・蔵・樹木などが残る町並み（東京都日野市）",
+      "caption": "地域の歴史的な建物・蔵・樹木などが残る町並み\n（東京都日野市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-14-photo2.jpg",
+      "width": 886,
+      "height": 591,
+      "alt": "水の流れを活かした緑地空間（東京都日野市）",
+      "caption": "水の流れを活かした緑地空間（東京都日野市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-14-photo3.jpg",
+      "width": 886,
+      "height": 591,
+      "alt": "緑の連続性に配慮した住宅地（東京都新宿区）",
+      "caption": "緑の連続性に配慮した住宅地（東京都新宿区）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-14-photo4.jpg",
+      "width": 1400,
+      "height": 942,
+      "alt": "地域住民に育まれる「船橋の小径」（東京都世田谷区）",
+      "caption": "地域住民に育まれる「船橋の小径」（東京都世田谷区）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 35,
+    "pdf_page": 21,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=21"
+  }
+}

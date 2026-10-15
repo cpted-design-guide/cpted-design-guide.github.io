@@ -1,0 +1,59 @@
+{
+  "id": "A-13",
+  "slug": "a-13-covenants-conditions-and-restrictions",
+  "title": "街並みのルール",
+  "english": "Covenants, Conditions and Restrictions",
+  "category": "A 土地利用・交通計画",
+  "principle": "わがまち意識",
+  "body": "街並みのためのルールの存在、それにより統一された街並みは、住民のまちに対する関心を高めるとともに、犯罪企図者にもそのことを知覚させる。ルールを通じたまちの魅力の維持は、資産価値の向上や、住みやすいまち、住み続けたいまちとしての価値（生活価値）にもつながる。外構や門灯・門柱等の統一、環境緑地の整備などのルール化が考えられる。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-1 施設計画への住民参加",
+      "href": "/b-1-citizen-participation-in-planning-process.html"
+    },
+    {
+      "text": "C-3 見通しの良い住宅外構"
+    },
+    {
+      "text": "D-1 エリアマネジメント組織"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "photograph",
+      "src": "/images/a-13-photo1.jpg",
+      "width": 1299,
+      "height": 974,
+      "alt": "地区計画により壁面後退を規定し、植栽帯を設けた住宅地（泉パークタウン／仙台市泉区）",
+      "caption": "地区計画により壁面後退を規定し、植栽帯を設けた住宅地\n（泉パークタウン／仙台市泉区）"
+    },
+    {
+      "kind": "photograph-group",
+      "images": [
+        {
+          "src": "/images/a-13-photo2.jpg",
+          "width": 850,
+          "height": 638,
+          "alt": "建築協定により緑の連続性が確保されたシーサイドももちの街並み"
+        },
+        {
+          "src": "/images/a-13-photo3.jpg",
+          "width": 614,
+          "height": 574,
+          "alt": "シーサイドももちの建築協定を知らせる表示"
+        }
+      ],
+      "caption": "建築協定により壁面後退し、生垣等の緑の連続性を確保した街並み（左）\n建築協定の存在を知らせる表示（右）\n（シーサイドももち／福岡市早良区）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 34,
+    "pdf_page": 20,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=20"
+  },
+  "secondary_layout": "single"
+}
