@@ -36,7 +36,6 @@ figcaption{margin-top:14px;font-size:13px;line-height:1.8;color:#435e54;text-ali
 .column{margin-top:38px;padding:25px 28px;background:var(--paper);border:1px dashed #9cb7a8;border-radius:10px}
 .column h2{margin:0 0 18px;font-size:20px;line-height:1.7;display:flex;align-items:center;flex-wrap:wrap;gap:8px}
 .column-icon{width:38px;height:auto;flex:none}
-.column-label{font-size:11px;letter-spacing:.08em;color:var(--accent)}
 .column p{margin:12px 0;font-size:15px;line-height:2}
 .column .column-source{font-size:12px;color:var(--muted);margin-bottom:0}
 .source{margin-top:45px;padding-top:23px;border-top:1px solid var(--line);font-size:12px;line-height:1.9;color:var(--muted)}

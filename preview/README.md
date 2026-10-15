@@ -11,7 +11,7 @@ B-7・D-2の確認用URL：
 - https://cpted-design-guide.github.io/preview/b-7-visibility-in-parks.html
 - https://cpted-design-guide.github.io/preview/d-2-maintenance-participation.html
 
-A-1・C-1の改修案（正式反映前）：
+A-1・C-1の確認用プレビュー（承認・正式反映済み）：
 
 - https://cpted-design-guide.github.io/preview/a-1-walkability.html
 - https://cpted-design-guide.github.io/preview/c-1-windows-facing-public-spaces.html
@@ -82,13 +82,20 @@ python3 scripts/build_keyword.py content/keywords/d-2.json --output d-2-maintena
 |---|---|---|
 | 掲載箇所 | p.22（PDF内8ページ目） | p.50（同36ページ目） |
 | 本文 | 初期Web版の「ウォーカビリティの高い」を原文の「ウォーカビリティのある」に戻した | 原著の全文と一致 |
-| 図版 | `p22-zu.tif` を基に再清書・彩色。旧Web版の鉄道端の矢印・独自の建物描写を除いた | `p50-zu.ai` と既存 `c-1-gemini.jpg` を比較して継続使用 |
+| 図版 | `p22-zu.tif` を基に再清書・彩色。旧Web版の鉄道端の矢印・独自の建物描写を除いた | `p50-zu.ai` と既存 `images/c-1-windows.jpg` を比較して継続使用 |
 | 写真 | 原著に掲載なし | `p50-photo1.tif`・`p50-photo2.tif` をsRGBのJPEGへ変換。元写真の内容・順序をPDFと照合 |
-| コラム | 「ＴＯＤ：公共交通指向型開発」の全文・出典・元の電球マークを掲載 | 独立したコラムなし |
+| コラム | 「TOD：公共交通指向型開発」の全文・出典・元の電球マークを掲載。承認時の指定により見出しの「コラム」を削除し、TODを半角表記にした | 独立したコラムなし |
 | キャプション | 原著の図にキャプションなし | 原著の写真キャプション2件を全文掲載。図内の文字2件も保持 |
 
 図の要素の照合は公開した比較ページにも記載した。A-1は徒歩圏3つ・駅3点・道路矢印18本、C-1は人物6人・高木2本・上下階の窓・左向き視線矢印2本と文字を確認した。線、色、人物の服装などの描写は清書版の表現で、原図との画素・座標の完全一致を保証するものではない。
 
 A-1・C-1の本文はInDesign「二版」から読み出せた文字列とも一致した。原著PDFの全掲載要素を基準とし、二版のネイティブ最終レイアウト全体の一致までは未確認。写真・図版はファイル名だけで対応を決めず、元画像とPDFの内容を比較した。
 
-A-1・C-1の正式HTMLと既存の画像は変更していない。改修用の新規画像には別名を使い、承認まではプレビューだけで使用する。原図の比較用画像もWeb用PNGで、編集元ファイルは公開リポジトリに登録しない。
+A-1・C-1は承認を受け、正式ページへ反映済み。プレビュー表示と検索除外指定を除き、正式版とプレビューの本文・図版・写真・コラムは同じ内容で生成する。
+
+```sh
+python3 scripts/build_keyword.py content/keywords/a-1.json --output a-1-walkability.html
+python3 scripts/build_keyword.py content/keywords/c-1.json --output c-1-windows-facing-public-spaces.html
+```
+
+旧A-1画像は新しい清書版への置き換えで不要になったため削除した。継続使用するC-1の清書画像は `images/c-1-windows.jpg` に移動・改名し、正式版・プレビュー・比較ページ・生成データの参照を更新した。原図の比較用画像もWeb用PNGで、編集元ファイルは公開リポジトリに登録しない。

@@ -44,7 +44,7 @@ def column(item, index):
                  f'width="{int(icon["width"])}" height="{int(icon["height"])}" loading="lazy">') if icon else ""
     paragraphs = "".join(f'\n  <p>{escape(text)}</p>' for text in item["paragraphs"])
     return (f'\n<section class="column" aria-labelledby="{heading_id}">\n'
-            f'  <h2 id="{heading_id}">{icon_html}<span class="column-label">コラム</span>{escape(item["title"])}</h2>'
+            f'  <h2 id="{heading_id}">{icon_html}{escape(item["title"])}</h2>'
             + paragraphs + f'\n  <p class="column-source">{escape(item["source"])}</p>\n</section>')
 
 
