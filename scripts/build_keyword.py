@@ -25,12 +25,6 @@ def figure(item, main=False):
     loading = 'fetchpriority="high"' if main else 'loading="lazy"'
     image = f'<img src="{escape(item["src"])}" alt="{escape(item["alt"])}"{dimensions} {loading} decoding="async">'
     image = f'<a class="zoom-image" href="{escape(item["src"])}" aria-label="画像を拡大：{escape(item["alt"])}">{image}</a>'
-    if item.get("image_crop_height"):
-        crop_height = int(item["image_crop_height"])
-        if not 0 < crop_height <= item["height"]:
-            raise ValueError("Crop height must stay inside the image")
-        # Keep the original asset intact; render its caption as readable HTML.
-        image = f'<div class="figure-image" style="aspect-ratio:{int(item["width"])}/{crop_height}">{image}</div>'
     return (f'<figure class="{" ".join(classes)}">\n'
             f'  {image}\n'
             f'  <figcaption>{caption}</figcaption>\n</figure>')

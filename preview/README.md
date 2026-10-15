@@ -25,6 +25,14 @@ python3 scripts/build_keyword.py content/keywords/a-4.json
 3. 公開したプレビューで、画像、PC・スマートフォン表示、リンクを確認する。
 4. 利用者の承認後にだけ正式ページを生成・反映し、トップや関連キーワードのリンクを更新する。
 
+画像のHTML寸法はファイルの実寸と一致させる。画像内キャプションをHTMLへ移す場合は、図の領域を保ったWeb用画像を作り、CSSによる隠れた切り抜きに依存しない。原本は公開リポジトリ外に保全し、原文・写真・図版の掲載要素を省略しない。
+
+承認後のA-4正式ページの再生成：
+
+```sh
+python3 scripts/build_keyword.py content/keywords/a-4.json --output a-4-permeability.html
+```
+
 `--output` は出力先を明示するためのオプション。正式ページへの出力は別途承認が必要。
 
 公開リポジトリにはWeb表示用に変換した画像だけを追加する。AI、InDesign、TIFF、編集用PDFなどの原著編集データや認証情報は追加しない。
