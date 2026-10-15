@@ -1,0 +1,50 @@
+{
+  "id": "B-4",
+  "slug": "b-4-public-private-linkages",
+  "title": "まちの縁側",
+  "english": "Public-Private Linkages",
+  "category": "B 公共空間",
+  "principle": "わがまち意識",
+  "body": "昔ながらの縁側のように、気軽に立ち話ができる場所として、まちの縁側となる空間を配置する。これにより、住民の活動を創出し人目を増やすとともに、人と人とをつなぎ、コミュニティを育む。辻広場やポケットパークなどの整備に加え、公的空間と建物とのつながりの確保が求められる。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-3 サードプレイス",
+      "href": "/b-3-the-third-place.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/b-4-public-private-linkages.png",
+      "width": 1455,
+      "height": 1081,
+      "alt": "住宅前の小さな広場。立つ人1人と座る人2人、樹木、つる植物の格子、腰掛け、花の鉢と舗装を原図の配置で保持。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-4-photo1.jpg",
+      "width": 1400,
+      "height": 937,
+      "alt": "地域の交流と活動を惹きつける町屋の床几（しょうぎ）（愛媛県内子町）→p.8参照[写真提供：パンノイ・ナッタポン氏]",
+      "caption": "地域の交流と活動を惹きつける町屋の床几（しょうぎ）\n（愛媛県内子町）→p.8参照\n[写真提供：パンノイ・ナッタポン氏]"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-4-photo2.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "大学と地域が連携し、地域力の再生をめざす\"芝の家\"（東京都港区）[写真提供：芝の家]",
+      "caption": "大学と地域が連携し、地域力の再生をめざす\"芝の家\"\n（東京都港区）\n[写真提供：芝の家]"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 41,
+    "pdf_page": 27,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=27"
+  }
+}

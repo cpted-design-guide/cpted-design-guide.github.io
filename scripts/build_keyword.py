@@ -47,7 +47,13 @@ def column(item, index):
     icon = item.get("icon", {"src": "/images/column-icon.png", "width": 106, "height": 102})
     icon_html = (f'<img class="column-icon" src="{escape(icon["src"])}" alt="" '
                  f'width="{int(icon["width"])}" height="{int(icon["height"])}" loading="lazy">') if icon else ""
-    paragraphs = "".join(f'\n  <p>{escape(text)}</p>' for text in item["paragraphs"])
+    paragraphs = ""
+    for text in item["paragraphs"]:
+        rendered = escape(text)
+        for marker in item.get("footnote_markers", []):
+            rendered = rendered.replace(escape(marker), f'<sup>{escape(marker)}</sup>')
+        paragraphs += f'\n  <p>{rendered}</p>'
+
     figures = "".join("\n" + figure(item) for item in item.get("figures", []))
     source = ('\n  <p class="column-source">' + "<br>".join(escape(line) for line in item["source"].splitlines()) + "</p>") if item.get("source") else ""
     if item["title"]:

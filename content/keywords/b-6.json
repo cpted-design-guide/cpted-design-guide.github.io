@@ -1,0 +1,50 @@
+{
+  "id": "B-6",
+  "slug": "b-6-defining-territories",
+  "title": "領域境界の演出",
+  "english": "Defining Territories",
+  "category": "B 公共空間",
+  "principle": "領域の階層化",
+  "body": "領域表示物で領域の境界を明示することで、部外者が私的空間に進入しづらくする。領域表示物の例として、道路舗装のテクスチャや色の変化、イメージハンプ、ゲートツリー、ストリートファーニチャーの配置などがある。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-3 道路の段階構成",
+      "href": "/a-3-hierarchy-of-roads.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/b-6-defining-territories.png",
+      "width": 1478,
+      "height": 1064,
+      "alt": "領域境界の演出を示すT字路。樹木3本、格子状のイメージハンプ、道路境界の部分舗装、シンボル植栽と原図の引出線・文字を保持。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-6-photo1.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "地区内の道路舗装を替えた住宅地（吾妻四丁目地区／茨城県つくば市）",
+      "caption": "地区内の道路舗装を替えた住宅地\n（吾妻四丁目地区／茨城県つくば市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-6-photo2.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "通りの名前が入ったゲートモニュメント（イギリス・マンチェスター市）",
+      "caption": "通りの名前が入ったゲートモニュメント\n（イギリス・マンチェスター市）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 43,
+    "pdf_page": 29,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=29"
+  }
+}
