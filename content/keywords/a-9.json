@@ -1,0 +1,56 @@
+{
+  "id": "A-9",
+  "slug": "a-9-active-zone",
+  "title": "アクティブゾーン",
+  "english": "Active Zone",
+  "category": "A 土地利用・交通計画",
+  "principle": "活動の促進",
+  "body": "公園等の周囲に、人目の多い施設を立地させるアクティブゾーンを設置することで、公園等に向かう人目を確保する。具体的には、キオスクやオープンカフェなどの施設を計画的に配置することが考えられる。これにより、公園利用者の安全も確保することができ、住民の交流も生まれる。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-8 まんなかの広場",
+      "href": "/a-8-squares-in-the-heart-of-communities.html"
+    },
+    {
+      "text": "C-5 透過性の高い店舗"
+    },
+    {
+      "text": "C-6 オープンカフェ／キオスク"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-9-active-zone.png",
+      "width": 1607,
+      "height": 979,
+      "caption": "奥に設置されたアクティブゾーンから視線が注がれる公園",
+      "alt": "公園と奥のキオスク・飲食店。原図の人物・ベンチ・高木4本・街路灯の配置を維持した清書・彩色図。"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-9-photo.jpg",
+      "width": 646,
+      "height": 484,
+      "alt": "湖沿いのプロムナードに連続する飲食空間（セレブレーション／フロリダ州）",
+      "caption": "湖沿いのプロムナードに連続する飲食空間\n（セレブレーション／フロリダ州）"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/a-9-active-zone-plan.png",
+      "width": 1273,
+      "height": 1236,
+      "alt": "公園の周囲に配置した斜線付きアクティブゾーン12区画と周囲の道路。",
+      "caption": "公園の周りのアクティブゾーン（斜線部分）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 30,
+    "pdf_page": 16,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=16"
+  }
+}

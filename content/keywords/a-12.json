@@ -1,0 +1,47 @@
+{
+  "id": "A-12",
+  "slug": "a-12-use-of-ground-floor",
+  "title": "接地階の利用",
+  "english": "Use of Ground Floor",
+  "category": "A 土地利用・交通計画",
+  "principle": "視認性の確保",
+  "body": "店舗や集会施設など利用頻度の高い用途を接地階に置くことにより、前面道路に対する人目を確保する。逆に、駐車場・駐輪場などが前面道路に直面しないように配慮することが望ましい。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-2 土地・建物用途の複合化",
+      "href": "/a-2-mixed-land-use.html"
+    },
+    {
+      "text": "C-5 透過性の高い店舗"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-12-ground-floor.png",
+      "width": 1426,
+      "height": 1103,
+      "caption": "",
+      "alt": "住宅3層、店舗、裏側の駐車場、車道・歩道を示す断面図。原図の17人、車2台、樹木・鉢植え・家具を同じ配置で保持。"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/a-12-parking.png",
+      "width": 1293,
+      "height": 1216,
+      "caption": "１階が駐車場となっており、前面道路に対する人目の確保ができていない",
+      "alt": "1階が駐車場となり道路への人目が確保されない建物。原図と同じ駐車場と車2台、バルコニーと窓の配置。",
+      "evaluation_symbol": "☹︎"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 33,
+    "pdf_page": 19,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=19"
+  },
+  "secondary_layout": "single"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "A-8",
+  "slug": "a-8-squares-in-the-heart-of-communities",
+  "title": "まんなかの広場",
+  "english": "Squares in the Heart of Communities",
+  "category": "A 土地利用・交通計画",
+  "principle": "視認性の確保",
+  "body": "まちの中央にある広場は、周囲から見守られやすく、安心して遊んだり、憩うことができる。広場を見守ることができるよう、周囲の道路のつながりや土地利用に配慮する。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-9 アクティブゾーン",
+      "href": "/a-9-active-zone.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "photograph",
+      "src": "/images/a-8-photo1.jpg",
+      "width": 992,
+      "height": 744,
+      "alt": "パレットコート七光台（千葉県野田市）",
+      "caption": "パレットコート七光台（千葉県野田市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-8-photo2.jpg",
+      "width": 992,
+      "height": 744,
+      "alt": "多くの住宅の窓が向いた公園（リフレ岬／大阪府岬町）",
+      "caption": "多くの住宅の窓が向いた公園\n（リフレ岬／大阪府岬町）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 29,
+    "pdf_page": 15,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=15"
+  },
+  "figure_columns": [
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "case_studies": [
+    {
+      "tone": "blue",
+      "paragraphs": [
+        "まちの中心にシンボル（魅力）となる大きな公園（約4,300 ㎡）が配置され、その周りを囲むように住宅と店舗が配置されている。"
+      ],
+      "figure": {
+        "kind": "photograph",
+        "src": "/images/a-8-kita-konosu.png",
+        "width": 1864,
+        "height": 744,
+        "alt": "北鴻巣駅西口の公園の元写真と地区模型。原著の赤い破線の楕円と写真への矢印を同じ位置で保持。",
+        "caption": "北鴻巣駅西口土地区画整理事業（埼玉県鴻巣市）"
+      },
+      "text_after": true
+    }
+  ]
+}

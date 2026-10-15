@@ -1,0 +1,72 @@
+{
+  "id": "A-10",
+  "slug": "a-10-use-of-corner-lots",
+  "title": "角地の利用",
+  "english": "Use of Corner Lots",
+  "category": "A 土地利用・交通計画",
+  "principle": "活動の促進",
+  "body": "複数の道路に面する角地の利用を高めることで、道路に向かう人目を効率的に増やすことができる。オープンカフェや小店舗などの施設を計画的に配置することが考えられる。住宅の場合は、二方向に面するコーナー窓の設置が有効である。",
+  "note": "",
+  "related": [
+    {
+      "text": "C-6 オープンカフェ／キオスク"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-10-corner-lot.png",
+      "width": 1800,
+      "height": 1963,
+      "alt": "角地の建物と左右のオープンカフェ、歩道の人物5人とカフェ利用者・給仕10人、手前の車2台。原図の位置と構図を保持。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-10-photo1.jpg",
+      "width": 472,
+      "height": 630,
+      "alt": "角地のコーナー窓の例",
+      "caption": "角地のコーナー窓の例"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-10-photo2.jpg",
+      "width": 861,
+      "height": 484,
+      "alt": "ポケットパークに向いた飲食店（福岡市早良区）",
+      "caption": "ポケットパークに向いた飲食店\n（福岡市早良区）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-10-photo3.jpg",
+      "width": 565,
+      "height": 321,
+      "alt": "街路を広く眺められるオープンカフェ（静岡県浜松市）",
+      "caption": "街路を広く眺められるオープンカフェ\n（静岡県浜松市）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 31,
+    "pdf_page": 17,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=17"
+  },
+  "body_paragraphs": [
+    "複数の道路に面する角地の利用を高めることで、道路に向かう人目を効率的に増やすことができる。オープンカフェや小店舗などの施設を計画的に配置することが考えられる。",
+    "住宅の場合は、二方向に面するコーナー窓の設置が有効である。"
+  ],
+  "figure_rows": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "first_row_layout": "three-one"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "A-11",
+  "slug": "a-11-diversity-of-dwelling-types",
+  "title": "住宅の多様化",
+  "english": "Diversity of Dwelling Types",
+  "category": "A 土地利用・交通計画",
+  "principle": "活動の促進",
+  "body": "住民の属性が画一的な住宅地では、平日の昼間など、人目のない時間帯が生まれる。住宅の多様化により住民の属性が多様化し、昼夜にわたり偏りなく活動が行われ、まちに人目が確保される。住宅形式（戸建、集合）、所有形態（持家、賃貸）、規模、間取りなどを多様化させることで、多様な住民が住まうことが可能になる。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-8 街路灯・防犯灯"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-11-dwelling-types.png",
+      "width": 1956,
+      "height": 2140,
+      "alt": "住宅タイプ5種類の元写真と、清書した地区の地図、元の形状と配置を保持した15人の人物シルエット。",
+      "caption": "ブロックごとに異なる多様な住宅が建てられているセレブレーション（フロリダ州）",
+      "photo_links": [
+        {
+          "src": "/images/a-11-photo1.jpg",
+          "text": "戸建て住宅のガレージ上部に設けられたアパートメント"
+        },
+        {
+          "src": "/images/a-11-photo2.jpg",
+          "text": "一般的な戸建て住宅"
+        },
+        {
+          "src": "/images/a-11-photo3.jpg",
+          "text": "イギリス風のタウンハウス"
+        },
+        {
+          "src": "/images/a-11-photo4.jpg",
+          "text": "コンドミニアム（集合住宅）"
+        },
+        {
+          "src": "/images/a-11-photo5.jpg",
+          "text": "水際の一等地に建つエステートホーム"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 32,
+    "pdf_page": 18,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=18"
+  }
+}

@@ -32,9 +32,14 @@ def figure(item, main=False):
         image = '<div class="paired-images">' + "".join(picture(image) for image in item["images"]) + "</div>"
     else:
         image = picture(item, main)
+    photo_links = ""
+    if item.get("photo_links"):
+        photo_links = ('  <ul class="photo-links" aria-label="写真ごとの説明">' + "".join(
+            f'<li><a href="{escape(link["src"])}">{escape(link["text"])}</a></li>'
+            for link in item["photo_links"]) + '</ul>\n')
     caption_html = f'  <figcaption>{caption}</figcaption>\n' if caption else ""
     return (f'<figure class="{" ".join(classes)}">\n'
-            f'  {image}\n' + caption_html + '</figure>')
+            f'  {image}\n' + photo_links + caption_html + '</figure>')
 
 
 def column(item, index):
@@ -52,12 +57,30 @@ def column(item, index):
 
 def case_study(item):
     paragraphs = "".join(f'<p>{escape(text)}</p>' for text in item["paragraphs"])
-    return ('\n<aside class="case-study" aria-label="掲載事例"><div>' + paragraphs
+    tone = item.get("tone", "yellow")
+    if tone not in ("yellow", "blue"):
+        raise ValueError("Unknown case study tone: " + tone)
+    extra_class = " case-study--blue" if tone == "blue" else ""
+    if item.get("text_after"):
+        return (f'\n<aside class="case-study{extra_class} case-study--stacked" aria-label="掲載事例">'
+                + figure(item["figure"]) + '<div>' + paragraphs + '</div></aside>')
+    return (f'\n<aside class="case-study{extra_class}" aria-label="掲載事例"><div>' + paragraphs
             + '</div>' + figure(item["figure"]) + '</aside>')
 
 
 def render_figures(data):
     figures = data["figures"]
+    if "figure_rows" in data:
+        rows = data["figure_rows"]
+        if [index for row in rows for index in row] != list(range(len(figures))):
+            raise ValueError("figure_rows must preserve the original figure order")
+        layout = data.get("first_row_layout", "equal")
+        if layout not in ("equal", "three-one"):
+            raise ValueError("Unknown first figure row layout: " + layout)
+        return '<div class="figure-rows">' + ''.join(
+            '<div class="figure-gallery' + (' figure-row--three-one' if i == 0 and layout == 'three-one' else '') + '">'
+            + ''.join(figure(figures[index]) for index in row) + '</div>'
+            for i, row in enumerate(rows)) + '</div>'
     if "figure_columns" in data:
         groups = data["figure_columns"]
         if sorted(index for group in groups for index in group) != list(range(len(figures))):
