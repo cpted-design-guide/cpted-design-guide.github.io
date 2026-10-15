@@ -1,0 +1,56 @@
+{
+  "id": "A-4",
+  "slug": "a-4-permeability",
+  "title": "パーミアビリティ",
+  "english": "Permeability",
+  "category": "A 土地利用・交通計画",
+  "principle": "活動の促進",
+  "body": "歩行者のパーミアビリティが高い（通り抜けしやすい）まちでは、通行者により人目が確保される。地区レベルの動線計画においては、パーミアビリティの確保が望ましい。特にフットパスなどによる歩行者のネットワークに配慮する。",
+  "note": "※ permeability: 透過性、浸透性",
+  "related": [
+    {
+      "text": "A-5 クルドサック・袋小路",
+      "href": null
+    },
+    {
+      "text": "C-4 フットパスとのつながり",
+      "href": null
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/a-4-footpaths.png",
+      "alt": "住宅街のフットパスをオレンジの点線と矢印で示した図。道路、住宅区画、公園の配置を原図に従って清書・彩色。",
+      "caption": "フットパスによるパーミアビリティの確保",
+      "image_crop_height": 1108,
+      "width": 1315,
+      "height": 1196
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/a-4-photo.jpg",
+      "alt": "石垣と植栽の間を通り抜ける、シーサイドももちのフットパス。",
+      "caption": "フットパス（シーサイドももち／福岡市早良区）",
+      "width": 728,
+      "height": 546
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/a-4-detour.png",
+      "alt": "袋小路の住宅街にある自宅から小学校へ、外周道路を回る赤い破線の経路を示した図。",
+      "caption": "歩行者のパーミアビリティが低い例\n（小学校まで遠回りを強いられる）",
+      "evaluation_symbol": "☹︎",
+      "width": 1211,
+      "height": 1299
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 25,
+    "pdf_page": 11,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=11"
+  }
+}
