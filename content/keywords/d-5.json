@@ -1,0 +1,71 @@
+{
+  "id": "D-5",
+  "slug": "d-5-image-of-place",
+  "title": "イメージ",
+  "english": "Image of Place",
+  "category": "D マネジメント",
+  "principle": "活動の促進",
+  "body": "特定の空間に対する負のイメージを改善することで、そこで行われる活動を変え、犯罪不安や反社会的行為を低減させる。イメージアップに資するイベントの開催など、空間の管理運営を計画的に行う。",
+  "note": "",
+  "related": [],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/d-5-outdoor-concert.png",
+      "width": 1542,
+      "height": 1020,
+      "alt": "芝生の野外コンサート。演奏者8人、客席の人物14人、楽器・スピーカー2組、樹木4本・建物・歩道と原図の位置関係を保持。",
+      "caption": "空間のイメージアップにつながる野外コンサート"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 64,
+    "pdf_page": 50,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=50"
+  },
+  "case_studies": [
+    {
+      "tone": "plain",
+      "paragraphs": [
+        "東京都足立区では、「美しいまちは安全なまち」を合い言葉により安心なまちづくりや区のイメージアップを目指す「ビューティフル・ウィンドウズ運動」を展開している。"
+      ],
+      "figure": {
+        "kind": "illustration",
+        "src": "/images/d-5-byu-bo.png",
+        "width": 1222,
+        "height": 312,
+        "alt": "原著のキャラクター「ビュー坊」5体。青・桃・橙・黄・緑の色、顔・手・形を元画像のまま保持。",
+        "caption": "キャラクターの「ビュー坊」"
+      }
+    },
+    {
+      "tone": "blue",
+      "paragraphs": [],
+      "intro_paragraphs": [
+        "公園や広場、それらをつなぐ歩行者専用道路に、小学生や市民が作った作品を飾るアートイベントにより、新たな地区イメージが加えられる。（つくばセンター地区活性化協議会主催／茨城県つくば市）"
+      ],
+      "figures": [
+        {
+          "kind": "photograph",
+          "src": "/images/d-5-photo1.jpg",
+          "width": 1400,
+          "height": 1050,
+          "alt": "約１万５千本の「みんなの風ぐるま」（風アート・２０１０）",
+          "caption": "約１万５千本の\n「みんなの風ぐるま」\n（風アート・２０１０）"
+        },
+        {
+          "kind": "photograph",
+          "src": "/images/d-5-photo2.jpg",
+          "width": 1400,
+          "height": 1050,
+          "alt": "約５千個のペットボトルで作ったランタン（ランタンアート・２０１０）",
+          "caption": "約５千個のペットボトル\nで作ったランタン\n（ランタンアート・２０１０）"
+        }
+      ]
+    }
+  ],
+  "case_studies_layout": "columns"
+}
