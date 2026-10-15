@@ -1,0 +1,64 @@
+{
+  "id": "B-9",
+  "slug": "b-9-signage",
+  "title": "サイン",
+  "english": "Signage",
+  "category": "B 公共空間",
+  "principle": "対象物の強化・回避",
+  "body": "場所ごとに，許容されている行為とそうでない行為を明確に掲示し，犯罪や反社会的行為に対する言い訳をさせない。「駐車禁止」「ここでは以下のような行為は禁じられています」「私有地」等のサインを適切な場所に配置する。ただし、サインによって景観が損なわれないような配慮も必要である。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-8 街路灯・防犯灯",
+      "href": "/b-8-street-light-and-security-lighting.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "photograph",
+      "src": "/images/b-9-photo1.jpg",
+      "width": 1050,
+      "height": 1400,
+      "alt": "公園利用上の注意が書かれたサイン（福岡市東区）",
+      "caption": "公園利用上の注意が書かれたサイン\n（福岡市東区）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-9-photo2.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "サインによって景観が損なわれないような配慮も必要である",
+      "caption": "サインによって景観が損なわれないような配慮も必要である",
+      "evaluation_symbol": "☹︎"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-9-photo3.jpg",
+      "width": 1047,
+      "height": 1400,
+      "alt": "バイク・自転車が共生し、人にやさしい街になるように“おしチャリ”のサインを掲げている（福岡市中央区）",
+      "caption": "バイク・自転車が共生し、人にやさしい街になるように\n“おしチャリ”のサインを掲げている\n（福岡市中央区）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 46,
+    "pdf_page": 32,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=32"
+  },
+  "body_paragraphs": [
+    "場所ごとに，許容されている行為とそうでない行為を明確に掲示し，犯罪や反社会的行為に対する言い訳をさせない。「駐車禁止」「ここでは以下のような行為は禁じられています」「私有地」等のサインを適切な場所に配置する。",
+    "ただし、サインによって景観が損なわれないような配慮も必要である。"
+  ],
+  "figure_columns": [
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ]
+  ]
+}

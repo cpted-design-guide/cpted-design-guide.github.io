@@ -1,0 +1,91 @@
+{
+  "id": "C-2",
+  "slug": "c-2-light-of-houses",
+  "title": "家あかり",
+  "english": "Light of Houses",
+  "category": "C 個々の敷地",
+  "principle": "視認性の確保",
+  "body": "門灯、玄関灯、庭園灯、窓あかりは、街路灯や防犯灯を補完し、犯罪や不安の起こりやすい暗がりをなくす。これらは、それ自体の照度が高くなくても、街路灯や防犯灯より数が多く、まちの照度を均斉化する。窓あかりは、家人の存在を感じさせることにより犯罪企図者を近づけにくくするとともに、歩行者に安心感を与える。また、統一門灯は景観創出にも寄与する。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-8 街路灯・防犯灯",
+      "href": "/b-8-street-light-and-security-lighting.html"
+    },
+    {
+      "text": "D-3 顔見知りの関係づくり"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/c-2-house-lights.png",
+      "width": 1880,
+      "height": 837,
+      "alt": "住宅2棟、樹木2本と車1台。原図の門灯・玄関灯・庭園灯・窓あかりと照らされる範囲を同じ位置に保持。",
+      "caption": "門灯、玄関灯、庭園灯、窓あかりによる照度の均斉化"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 51,
+    "pdf_page": 37,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=37"
+  },
+  "case_studies": [
+    {
+      "tone": "blue",
+      "title": "灯かりのいえなみづくり（兵庫県神戸市）",
+      "intro_paragraphs": [
+        "神戸市では、防犯対策や夜間景観形成のための取り組みとして、地域ぐるみで行う「灯かりのいえなみづくり」（協定や宣言）が実施されている。協定には、通りに面した部屋の灯かりや玄関灯・門灯を何時まで点灯するか、どういう光色にするかなどが規定される。市はアドバイザー派遣や設置助成などの形で支援している。"
+      ],
+      "paragraphs": [
+        "神戸市西区学園東町6,7丁目（神戸市西区）では、灯かりのいえなみ宣言に向けて右のような活動を行った。"
+      ],
+      "figures": [
+        {
+          "kind": "photograph",
+          "src": "/images/c-2-photo1.jpg",
+          "width": 1238,
+          "height": 927,
+          "alt": "まちを安全点検するたそがれウォーク(2001.8)",
+          "caption": "まちを安全点検するたそがれウォーク\n(2001.8)"
+        },
+        {
+          "kind": "photograph",
+          "src": "/images/c-2-photo2.jpg",
+          "width": 720,
+          "height": 568,
+          "alt": "一斉に門灯を点灯する実験(2003.3)",
+          "caption": "一斉に門灯を点灯する実験\n(2003.3)"
+        }
+      ]
+    },
+    {
+      "tone": "blue",
+      "paragraphs": [
+        "パレットコート七光台（千葉県野田市）でも協定を結び、全世帯のポーチ灯や外壁灯により夜間の明るさを確保している。"
+      ],
+      "figures": [
+        {
+          "kind": "photograph",
+          "src": "/images/c-2-photo3.jpg",
+          "width": 1400,
+          "height": 1050,
+          "alt": "昼間",
+          "caption": "昼間"
+        },
+        {
+          "kind": "photograph",
+          "src": "/images/c-2-photo4.jpg",
+          "width": 1400,
+          "height": 1051,
+          "alt": "夜間",
+          "caption": "夜間"
+        }
+      ]
+    }
+  ]
+}

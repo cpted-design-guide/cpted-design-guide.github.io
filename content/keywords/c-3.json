@@ -1,0 +1,51 @@
+{
+  "id": "C-3",
+  "slug": "c-3-transparency-of-housing-exteriors",
+  "title": "見通しの良い住宅外構",
+  "english": "Transparency of Housing Exteriors",
+  "category": "C 個々の敷地",
+  "principle": "視認性の確保",
+  "body": "見通しの利くフェンスや生垣の設置により、住宅外構の見通しを良くすることで、道路から住宅敷地内の侵入者を目撃しやすくするとともに、住宅から道路上の犯罪企図者を目撃しやすくする。生垣などはブロック壁に比べて、景観や防災面でも望ましいと言える。ただし、プライバシーへの配慮、生垣の視認性が確保できるようなルールづくり、計画的な管理などが求められる。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-13 街並みのルール",
+      "href": "/a-13-covenants-conditions-and-restrictions.html"
+    },
+    {
+      "text": "C-1 公共空間に向く窓",
+      "href": "/c-1-windows-facing-public-spaces.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "photograph",
+      "src": "/images/c-3-photo.jpg",
+      "width": 1160,
+      "height": 870,
+      "alt": "地区計画による生垣化や電線類の地中化などにより見通しのよい開放的な景観を実現した住宅地（山口朝田ヒルズ／山口県山口市）",
+      "caption": "地区計画による生垣化や電線類の地中化などにより見通しのよい開放的な景観を実現した住宅地\n（山口朝田ヒルズ／山口県山口市）"
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/c-3-housing-exteriors.png",
+      "width": 1801,
+      "height": 1395,
+      "alt": "道路の人物と住宅内の人物各1人、大小の樹木と低木。青の斜め左向き視線、青の短い右向き視線、水色の右向き視線の破線矢印3本を保持。図中に「低木と高木を組み合わせて、見通しを確保した例」「人の存在がわかる程度の見通し（プライバシーへの配慮）」の説明を保持。",
+      "caption": ""
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 52,
+    "pdf_page": 38,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=38"
+  },
+  "body_paragraphs": [
+    "見通しの利くフェンスや生垣の設置により、住宅外構の見通しを良くすることで、道路から住宅敷地内の侵入者を目撃しやすくするとともに、住宅から道路上の犯罪企図者を目撃しやすくする。生垣などはブロック壁に比べて、景観や防災面でも望ましいと言える。",
+    "ただし、プライバシーへの配慮、生垣の視認性が確保できるようなルールづくり、計画的な管理などが求められる。"
+  ],
+  "secondary_layout": "single"
+}

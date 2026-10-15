@@ -73,3 +73,12 @@ figcaption{margin-top:14px;font-size:13px;line-height:1.8;color:#435e54;text-ali
 .column-heading{margin-bottom:12px}
 
 .column sup{font-size:.7em;line-height:0;vertical-align:super;white-space:nowrap}
+
+.case-study--multiple{display:block}
+.case-study--multiple h2{font-size:17px;line-height:1.8;margin:0 0 14px}
+.case-study-content{display:grid;grid-template-columns:1fr 2fr;gap:24px;align-items:center;margin-top:20px}
+.case-study-content p{margin:0}
+.case-study-content .figure-gallery{gap:16px}
+.figure-row--end{align-items:end}
+.figure-rows>.figure-gallery:has(>figure:only-child){grid-template-columns:1fr}
+@media(max-width:640px){.case-study-content{grid-template-columns:1fr;gap:20px}.case-study--multiple h2{font-size:16px}.case-study-content .figure-gallery{gap:24px}}

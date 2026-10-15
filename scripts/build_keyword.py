@@ -73,6 +73,13 @@ def case_study(item):
     if tone not in ("yellow", "blue"):
         raise ValueError("Unknown case study tone: " + tone)
     extra_class = " case-study--blue" if tone == "blue" else ""
+    if "figures" in item:
+        heading = f'<h2>{escape(item["title"])}</h2>' if item.get("title") else ""
+        intro = "".join(f'<p>{escape(text)}</p>' for text in item.get("intro_paragraphs", []))
+        figures = '<div class="figure-gallery">' + "".join(figure(image) for image in item["figures"]) + '</div>'
+        return (f'\n<aside class="case-study{extra_class} case-study--multiple" aria-label="掲載事例">'
+                + heading + intro + '<div class="case-study-content"><div>' + paragraphs
+                + '</div>' + figures + '</div></aside>')
     if item.get("text_after"):
         return (f'\n<aside class="case-study{extra_class} case-study--stacked" aria-label="掲載事例">'
                 + figure(item["figure"]) + '<div>' + paragraphs + '</div></aside>')
@@ -106,8 +113,12 @@ def render_figures(data):
         layout = data.get("first_row_layout", "equal")
         if layout not in ("equal", "three-one"):
             raise ValueError("Unknown first figure row layout: " + layout)
+        alignment = data.get("first_row_align", "start")
+        if alignment not in ("start", "end"):
+            raise ValueError("Unknown first figure row alignment: " + alignment)
         return '<div class="figure-rows">' + ''.join(
-            '<div class="figure-gallery' + (' figure-row--three-one' if i == 0 and layout == 'three-one' else '') + '">'
+            '<div class="figure-gallery' + (' figure-row--three-one' if i == 0 and layout == 'three-one' else '')
+            + (' figure-row--end' if i == 0 and alignment == 'end' else '') + '">'
             + ''.join(figure(figures[index]) for index in row) + '</div>'
             for i, row in enumerate(rows)) + '</div>'
     if "figure_columns" in data:

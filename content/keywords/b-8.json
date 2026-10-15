@@ -1,0 +1,67 @@
+{
+  "id": "B-8",
+  "slug": "b-8-street-light-and-security-lighting",
+  "title": "街路灯・防犯灯",
+  "english": "Street Light and Security Lighting",
+  "category": "B 公共空間",
+  "principle": "視認性の確保",
+  "body": "暗がりでは犯罪が起こりやすく、住民が不安を感じやすい。街路灯・防犯灯はこうした犯罪を抑止し、不安を低減する。特に夜間に通行や活動が想定される場所においては、街路灯や防犯灯など照明を確保し、暗がりをつくらないように配慮する。ただし、光害や照度の低下、グローブの汚れ、樹木による隠れなどに配慮し、適切に維持管理することが必要である。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-1 ウォーカビリティ",
+      "href": "/a-1-walkability.html"
+    },
+    {
+      "text": "C-2 家あかり",
+      "href": "/c-2-light-of-houses.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/b-8-street-lighting.png",
+      "width": 1601,
+      "height": 1633,
+      "alt": "街路灯2基とフットライト2基が通路を照らす図。人物3人、樹木2本、ベンチと各灯りの照射範囲を保持。図中文字「街路灯」「フットライト」と引出線は元のベクトル形状。",
+      "caption": ""
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/b-8-photo.jpg",
+      "width": 1050,
+      "height": 1400,
+      "alt": "樹木に覆われた防犯灯",
+      "caption": "樹木に覆われた防犯灯",
+      "evaluation_symbol": "☹︎"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 45,
+    "pdf_page": 31,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=31"
+  },
+  "body_paragraphs": [
+    "暗がりでは犯罪が起こりやすく、住民が不安を感じやすい。街路灯・防犯灯はこうした犯罪を抑止し、不安を低減する。特に夜間に通行や活動が想定される場所においては、街路灯や防犯灯など照明を確保し、暗がりをつくらないように配慮する。",
+    "ただし、光害や照度の低下、グローブの汚れ、樹木による隠れなどに配慮し、適切に維持管理することが必要である。"
+  ],
+  "figure_rows": [
+    [
+      0,
+      1
+    ]
+  ],
+  "first_row_layout": "three-one",
+  "columns": [
+    {
+      "title": "光害（ひかりがい）",
+      "paragraphs": [
+        "夜間の照明によって引き起こされる、様々な害の総称。照明対象の範囲外に漏れてしまった光が、良好な光環境を損なってしまい、その結果、何らかの悪影響を与えた場合を言う。野生の動植物、農作物・家畜、社会活動（天体観測・睡眠）に対する害など、具体的な内容は様々である。"
+      ],
+      "source": "（出典：建築研究所（2009）「防犯まちづくりのための調査の手引き」)"
+    }
+  ]
+}
