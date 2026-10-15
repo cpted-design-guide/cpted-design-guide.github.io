@@ -187,6 +187,7 @@ def build(path, output=None):
         values["preview_notice"] = ('<p class="preview-notice">制作確認用プレビュー · '
                                     f'<a href="{escape(data["review_url"])}">原図との比較・照合記録</a></p>')
     page = Template((ROOT / "templates/keyword.html").read_text(encoding="utf-8")).substitute(values)
+    page = "\n".join(line.rstrip() for line in page.split("\n"))
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(page, encoding="utf-8")
     print(output.relative_to(ROOT))
