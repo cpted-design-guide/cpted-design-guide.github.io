@@ -1,0 +1,89 @@
+{
+  "id": "D-4",
+  "slug": "d-4-exhibition-flowers",
+  "title": "表出・花",
+  "english": "Exhibition, Flowers",
+  "category": "D マネジメント",
+  "principle": "活動の促進",
+  "body": "表出により住民の存在が感じられるまちなみは、犯罪企図者が心理的に近づきにくい。例えば軒先のプランターや鉢植えなどの「表出の緑」は、まちに潤いを与えるとともに、日常的にそれを管理する住民の目も増やす。ただし、管理が適切でなければ逆に犯罪企図者を引きつけることになりかねない。",
+  "note": "",
+  "related": [
+    {
+      "text": "B-2 アイデンティティ",
+      "href": "/b-2-identity.html"
+    },
+    {
+      "text": "D-3 顔見知りの関係づくり",
+      "href": "/d-3-promotion-of-face-to-face-communication.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/d-4-exhibition-flowers.png",
+      "width": 2001,
+      "height": 737,
+      "alt": "住宅3棟、樹木2本、車1台、手をつないで歩く親子2人。軒先の植栽容器9個の位置、元の建物・窓・敷地の輪郭と「軒先の鉢植え」の文字を保持。",
+      "caption": ""
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 63,
+    "pdf_page": 49,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=49"
+  },
+  "case_studies": [
+    {
+      "tone": "blue",
+      "text_after": true,
+      "figure": {
+        "kind": "photograph",
+        "src": "/images/d-4-photo1.jpg",
+        "width": 1400,
+        "height": 1050,
+        "alt": "見守りフラワーポット大作戦",
+        "caption": "見守りフラワーポット大作戦"
+      },
+      "paragraphs": [
+        "一定の地域において、参加世帯が揃いのフラワーポットを玄関前等に設置し、登下校の時間帯にその手入れや水やりをして子どもを見守る防犯活動。安城市、神戸市などで実績があり、防犯活動への参加層の拡大、地域のみまもり量の増加、コミュニティの向上などの効果が報告されている。",
+        "（写真は愛知県安城市）"
+      ]
+    },
+    {
+      "tone": "plain",
+      "paragraphs": [],
+      "figure_layout": "single",
+      "figures": [
+        {
+          "kind": "photograph",
+          "src": "/images/d-4-photo2.jpg",
+          "width": 1400,
+          "height": 1049,
+          "alt": "マンションの共用通路に飾られた花（葛西クリーンタウン／東京都江戸川区）",
+          "caption": "マンションの共用通路に飾られた花\n（葛西クリーンタウン／東京都江戸川区）"
+        },
+        {
+          "kind": "photograph",
+          "src": "/images/d-4-photo3.jpg",
+          "width": 1400,
+          "height": 676,
+          "alt": "イルミネーションで飾られた住宅（茨城県つくば市）",
+          "caption": "イルミネーションで飾られた住宅\n（茨城県つくば市）"
+        }
+      ]
+    }
+  ],
+  "case_studies_layout": "columns",
+  "columns": [
+    {
+      "title": "表出の緑",
+      "paragraphs": [
+        "「表出の緑」は、その空間がある集団の支配下にあることを示唆する「領域表示物」として機能するとされている。"
+      ],
+      "source": "（出典：小林秀樹（1992）「集住のなわばり学」、彰国社）"
+    }
+  ]
+}

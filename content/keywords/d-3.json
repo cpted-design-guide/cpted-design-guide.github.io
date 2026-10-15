@@ -1,0 +1,70 @@
+{
+  "id": "D-3",
+  "slug": "d-3-promotion-of-face-to-face-communication",
+  "title": "顔見知りの関係づくり",
+  "english": "Promotion of Face-to-Face Communication",
+  "category": "D マネジメント",
+  "principle": "わがまち意識",
+  "body": "日常的なあいさつや近所づきあい、美化活動などを通じて、向こう三軒両隣から顔見知りの関係を広げ、わがまち意識を高める。また、そのことを犯罪者に知覚させ近づきにくくする。配置計画段階においては、コミュニティの基礎単位が分かりやすい住宅配置を行うことも有効である。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-5 クルドサック・袋小路",
+      "href": "/a-5-culs-de-sac.html"
+    },
+    {
+      "text": "A-6 コモンスペース",
+      "href": "/a-6-common-areas.html"
+    },
+    {
+      "text": "C-2 家あかり",
+      "href": "/c-2-light-of-houses.html"
+    },
+    {
+      "text": "D-4 表出・花",
+      "href": "/d-4-exhibition-flowers.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/d-3-face-to-face.png",
+      "width": 1510,
+      "height": 1042,
+      "alt": "住宅2棟の間であいさつをする2人。一方はおじぎし、もう一方はほうきで掃除をしている。樹木2本・生垣・門柱・窓・扉と原図の配置を保持。",
+      "caption": "日常的なあいさつや清掃"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/d-3-photo1.jpg",
+      "width": 1400,
+      "height": 1050,
+      "alt": "向こう三軒両隣の維持管理を促す装置としてのストリート花壇（埼玉県鴻巣市）",
+      "caption": "向こう三軒両隣の維持管理を促す装置としてのストリート花壇\n（埼玉県鴻巣市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/d-3-photo2.jpg",
+      "width": 640,
+      "height": 480,
+      "alt": "「子ども110番の家」の協力者と顔見知りになるための交流会（北海道旭川市立近文小学校）",
+      "caption": "「子ども110番の家」の協力者と顔見知りになるための交流会\n（北海道旭川市立近文小学校）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 62,
+    "pdf_page": 48,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=48"
+  },
+  "columns": [
+    {
+      "title": "神戸市住生活基本計画2011",
+      "paragraphs": [
+        "「防犯性の高い住まい・地域づくりにつながるような向こう三軒両隣の小さな範囲からの取り組み」を進めることを明記している。具体例として「灯かりのいえなみ協定」（→C2 家あかり）、家の前の通りの清掃、通りに面した場所でのお花の世話（→D4 表出・花）を挙げている。また、アドバイザー派遣による支援も検討されている。"
+      ]
+    }
+  ]
+}

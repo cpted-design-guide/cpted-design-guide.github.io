@@ -1,0 +1,52 @@
+{
+  "id": "C-8",
+  "slug": "c-8-removing-scaffolds",
+  "title": "足場の除去",
+  "english": "Removing Scaffolds",
+  "category": "C 個々の敷地",
+  "principle": "対象物の強化・回避",
+  "body": "上階への足場となるようなものをなくし、建物に侵入されにくくする。敷地内のカーポートや物置はもちろん、隣接建物、電柱、樹木等から上階の窓に手が届かないよう留意する。新市街地においては、建設中の建物の足場などが隣接する建物への侵入経路にならないよう、配慮が必要である。",
+  "note": "",
+  "related": [
+    {
+      "text": "C-7 死角の解消",
+      "href": "/c-7-minimizing-dead-spaces.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "illustration",
+      "src": "/images/c-8-house-scaffolds.png",
+      "width": 1801,
+      "height": 1023,
+      "alt": "住宅2棟、樹木1本、車庫下の車1台。物置を使う人物と車庫の屋根を使う人物、通りの人物2人の計4人と全建物配置を保持。元の説明文字、引出線と不適切事例の顔記号を保持。",
+      "caption": ""
+    },
+    {
+      "kind": "illustration",
+      "src": "/images/c-8-gate-scaffold.png",
+      "width": 1100,
+      "height": 1435,
+      "alt": "門扉と塀を足場として上階の窓に至る経路。原図の門扉・塀・窓2か所・植栽、全ての赤い丸と矢印の位置・向きを保持。",
+      "caption": "隣家の門扉と塀を使った侵入",
+      "evaluation_symbol": "☹︎"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/c-8-photo.jpg",
+      "width": 960,
+      "height": 1280,
+      "alt": "足場から隣接建物への侵入に注意が必要",
+      "caption": "足場から隣接建物への侵入に注意が必要",
+      "evaluation_symbol": "☹︎"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 57,
+    "pdf_page": 43,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=43"
+  }
+}

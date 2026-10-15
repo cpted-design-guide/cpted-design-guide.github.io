@@ -1,0 +1,100 @@
+{
+  "id": "D-1",
+  "slug": "d-1-community-management-organization",
+  "title": "エリアマネジメント組織",
+  "english": "Community Management Organization",
+  "category": "D マネジメント",
+  "principle": "わがまち意識",
+  "body": "エリアマネジメントの組織の存在により、まちづくり活動が持続的なものとなる。街並みのルールの運営、一戸一灯運動の推進、その他防犯活動などの役割も担う。こうしてまちの魅力が維持されることは、資産価値の向上や、住みやすいまち、住み続けたいまちとしての価値（生活価値）の向上にもつながる。",
+  "note": "",
+  "related": [
+    {
+      "text": "A-13 街並みのルール",
+      "href": "/a-13-covenants-conditions-and-restrictions.html"
+    },
+    {
+      "text": "B-1 施設計画への住民参加",
+      "href": "/b-1-citizen-participation-in-planning-process.html"
+    }
+  ],
+  "figures": [
+    {
+      "kind": "photograph",
+      "src": "/images/d-1-photo1.jpg",
+      "width": 1400,
+      "height": 1052,
+      "alt": "防犯まちづくり委員会による地区の防犯診断（稲荷木小学校周辺地区／千葉県市川市）",
+      "caption": "防犯まちづくり委員会による地区の防犯診断\n（稲荷木小学校周辺地区／千葉県市川市）"
+    },
+    {
+      "kind": "photograph",
+      "src": "/images/d-1-photo2.jpg",
+      "width": 1400,
+      "height": 1052,
+      "alt": "地区内を巡回する警備用車両（照葉のまち／福岡市東区）",
+      "caption": "地区内を巡回する警備用車両\n（照葉のまち／福岡市東区）"
+    }
+  ],
+  "source": {
+    "title": "防犯まちづくりデザインガイド ～計画・設計からマネジメントまで",
+    "series": "建築研究資料 No.134",
+    "year": 2011,
+    "page": 60,
+    "pdf_page": 46,
+    "url": "https://www.kenken.go.jp/japanese/contents/publications/data/134/134-05.pdf#page=46"
+  },
+  "figure_rows": [
+    [
+      0,
+      1
+    ]
+  ],
+  "case_studies": [
+    {
+      "tone": "blue",
+      "paragraphs": [],
+      "figures": [
+        {
+          "kind": "photograph-group",
+          "images": [
+            {
+              "src": "/images/d-1-photo3.jpg",
+              "width": 1400,
+              "height": 933,
+              "alt": "HOAによる塀の塗装作業"
+            },
+            {
+              "src": "/images/d-1-photo4.jpg",
+              "width": 1400,
+              "height": 933,
+              "alt": "HOAによる共用空間の管理用車両"
+            }
+          ],
+          "caption": "HOAによる管理活動（ウッドブリッジ／カリフォルニア州アーバイン市）"
+        }
+      ],
+      "figure_layout": "single"
+    }
+  ],
+  "columns": [
+    {
+      "title": "ＨＯＡ（Homeowners Association）",
+      "paragraphs": [
+        "住宅所有者により構成される非営利法人の組合組織であり、コモン空間の管理・運営等を行う。居住者はルールに従い、自主管理費を支払うことを求められる。",
+        "写真は、ウッドブリッジのＨＯＡ事務局の受付。理事会から委託された専門の管理業者が運営している。"
+      ],
+      "source": "（出典：樋野公宏・渡和由他（2009）「戸建住宅地における防犯と生活の質の両立に関する考察」日本建築学会住宅系研究報告会論文集)",
+      "layout": "sidebar",
+      "figures": [
+        {
+          "kind": "photograph",
+          "src": "/images/d-1-photo5.jpg",
+          "width": 1400,
+          "height": 1050,
+          "alt": "ウッドブリッジのＨＯＡ事務局の受付。理事会から委託された専門の管理業者が運営。",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

@@ -62,29 +62,46 @@ def column(item, index):
     else:
         label = 'aria-label="原著のコラム"'
         heading = f'<div class="column-heading">{icon_html}</div>'
+    content = paragraphs + figures + source
+    if item.get("layout") == "sidebar":
+        content = ('<div class="column-content"><div>' + paragraphs + source
+                   + '</div><div>' + figures + '</div></div>')
     return (f'\n<section class="column" {label}>\n'
             f'  {heading}'
-            + paragraphs + figures + source + '\n</section>')
+            + content + '\n</section>')
 
 
 def case_study(item):
     paragraphs = "".join(f'<p>{escape(text)}</p>' for text in item["paragraphs"])
     tone = item.get("tone", "yellow")
-    if tone not in ("yellow", "blue"):
+    if tone not in ("yellow", "blue", "plain"):
         raise ValueError("Unknown case study tone: " + tone)
     extra_class = " case-study--blue" if tone == "blue" else ""
+    if tone == "plain":
+        extra_class = " case-study--plain"
+    heading = f'<h2>{escape(item["title"])}</h2>' if item.get("title") else ""
     if "figures" in item:
-        heading = f'<h2>{escape(item["title"])}</h2>' if item.get("title") else ""
         intro = "".join(f'<p>{escape(text)}</p>' for text in item.get("intro_paragraphs", []))
-        figures = '<div class="figure-gallery">' + "".join(figure(image) for image in item["figures"]) + '</div>'
+        layout_class = ' figure-gallery--single' if item.get("figure_layout") == "single" else ''
+        figures = '<div class="figure-gallery' + layout_class + '">' + "".join(figure(image) for image in item["figures"]) + '</div>'
+        content = ('<div class="case-study-content"><div>' + paragraphs + '</div>' + figures + '</div>') if paragraphs else figures
         return (f'\n<aside class="case-study{extra_class} case-study--multiple" aria-label="掲載事例">'
-                + heading + intro + '<div class="case-study-content"><div>' + paragraphs
-                + '</div>' + figures + '</div></aside>')
+                + heading + intro + content + '</aside>')
     if item.get("text_after"):
         return (f'\n<aside class="case-study{extra_class} case-study--stacked" aria-label="掲載事例">'
-                + figure(item["figure"]) + '<div>' + paragraphs + '</div></aside>')
-    return (f'\n<aside class="case-study{extra_class}" aria-label="掲載事例"><div>' + paragraphs
+                + figure(item["figure"]) + '<div>' + heading + paragraphs + '</div></aside>')
+    if item.get("image_first"):
+        return (f'\n<aside class="case-study{extra_class}" aria-label="掲載事例">'
+                + figure(item["figure"]) + '<div>' + heading + paragraphs + '</div></aside>')
+    return (f'\n<aside class="case-study{extra_class}" aria-label="掲載事例"><div>' + heading + paragraphs
             + '</div>' + figure(item["figure"]) + '</aside>')
+
+
+def render_cases(data):
+    cases = "".join(case_study(item) for item in data.get("case_studies", []))
+    if data.get("case_studies_layout") == "columns":
+        return '<div class="case-studies-grid">' + cases + '</div>'
+    return cases
 
 
 def render_figures(data):
@@ -154,7 +171,7 @@ def build(path, output=None):
     values["page_title"] = escape(data["id"] + " " + data["title"])
     values.update({"source_" + key: escape(value) for key, value in data["source"].items()})
     values.update(related="、".join(related), figures=rendered,
-                  columns="".join(case_study(item) for item in data.get("case_studies", []))
+                  columns=render_cases(data)
                   + "".join(column(item, index) for index, item in enumerate(data.get("columns", []), start=1)))
     if data.get("body_paragraphs"):
         if "".join(data["body_paragraphs"]) != data["body"]:
